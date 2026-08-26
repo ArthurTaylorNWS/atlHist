@@ -137,14 +137,8 @@ def main():
 
     # Print Markdown Table Headers
     print(
-        '| <th style="width:130px;">YYYY-Storm</th> '
-        '| <th style="width:130px;">Date</th> '
-        '| <th style="width:240px;">Cat, Pres, Dead, $bn</th> '
-        '| <th style="width:140px;">Storm-Tide</th> '
-        '| <th style="width:70px;">NOAA</th> '
-        '| <th style="width:70px;">USGS</th> '
-        '| <th style="width:240px;">Guidance</th> '
-        '| <th style="width:240px;">Area</th> |'
+        "| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | "
+        "USGS | Guidance | Area |"
     )
     print("|---|---|---|---|---|---|---|---|")
 
