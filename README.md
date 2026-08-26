@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Atlantic Storm Surge (2005-2011)
+permalink: /
 ---
 ### Storm Surge Events in the Atlantic from {end_year} to {start_year}
 Peak Storm Surge 1: <= 3 ft, 2: <= 6 ft, 3: <= 9 ft, 4: <= 12 ft, 5: <= 15 ft, 6: > 15ft
