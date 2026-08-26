@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>{{ page.title | default: "SLOSH Display Program" }}</title>
+
+  <!-- OMD Metadata -->
+  <meta name="DC.creator" content="NWS/Office of Modeling and Development">
+  <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US">
+  <meta name="rating" content="general">
+  <meta name="resource-type" content="document">
+  <meta name="distribution" content="global">
+  <meta charset="iso-8859-1">
+
+  <!-- Link to our custom CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body>
+
+<!-- NWS HEADER -->
+<div class="nwsHead">
+  <a href="https://www.noaa.gov" target="_blank"><img class="nwsHeadLf" src="{{ '/assets/images/noaa_logo.png' | relative_url }}" alt="NOAA Logo"></a>
+  <a href="https://www.weather.gov" target="_blank">
+    <img class="nwsHeadLf" src="{{ '/assets/images/nws_logo.png' | relative_url }}" style="height:58px;margin-top:2px" alt="NWS Logo">
+  </a>
+  <div class="nwsHeadMid">
+    <!-- Jekyll will dynamically insert the page title here -->
+<!--     <a class="nwsHeadTitle" href="{{ '/' | relative_url }}">{{ page.title | default: "SLOSH DISPLAY PROGRAM" }}</a> -->
+    <span class="nwsHeadTitle">{{ page.title | default: "SLOSH DISPLAY PROGRAM" }}</span>
+    <br>
+    <a class="nwsHeadNoaa" href="https://www.noaa.gov" target="_blank">N A T I O N A L
+      &nbsp;&nbsp;&nbsp;O C E A N I C
+      &nbsp;&nbsp;&nbsp;A N D
+      &nbsp;&nbsp;&nbsp;A T M O S P H E R I C
+      &nbsp;&nbsp;&nbsp;A D M I N I S T R A T I O N
+    </a>
+  </div>
+  <a href="https://www.commerce.gov" target="_blank"><img class="nwsHeadRt" src="{{ '/assets/images/doc_logo.png' | relative_url }}" alt="DOC Logo"></a>
+  <br>
+</div>
+
+<!-- NWS NAVIGATION BAR -->
+<div class="exLink">
+  <table width="100%"><tr width="100%" style="text-align:center">
+    <td style="width:5px"></td>
+    <td class="exLink">
+      <a class="exLink" href="https://vlab.noaa.gov/web/mdl/storm-surge" target="_blank">OMD Surge</a> |
+      <a class="exLink" href="https://www.nhc.noaa.gov/surge/" target="_blank">NHC Surge</a>
+    </td>
+    <td style="width:100px"></td>
+    <td class="exLink">
+      <a class="exLink" href="{{ '/' | relative_url }}">Home</a> |
+      <a class="exLink" href="https://slosh.nws.noaa.gov/psurge">P-Surge</a> |
+      <a class="exLink" href="https://slosh.nws.noaa.gov/petss">P-ETSS</a> |
+      <a class="exLink" href="https://slosh.nws.noaa.gov/etsurge2.0">ETSS</a> |
+      <a class="exLink" href="https://slosh.nws.noaa.gov/etsurge">Orig. ETSS</a>
+    </td>
+    <td style="width:20px"></td>
+    <td class="exLink">
+      <a class="exLink" href="https://water.noaa.gov/" target="_blank">NWPS</a> |
+      <a class="exLink" href="https://mag.ncep.noaa.gov/model-guidance-model-area.php" target="_blank">MAG</a> |
+      <a class="exLink" href="https://tidesandcurrents.noaa.gov/map/" target="_blank">CO-OPS</a> |
+      <a class="exLink" href="https://nowcoast.noaa.gov/" target="_blank">NowCoast</a>
+    </td>
+    <td style="width:5px"></td>
+  </tr></table>
+<!--
+  <table style="width:100%; border-collapse: collapse;">
+    <tr>
+      <td class="exLink" style="text-align: left; padding-left: 15px;">
+        <a class="exLink" href="https://vlab.noaa.gov/web/mdl/storm-surge" target="_blank">OMD Surge</a> |
+        <a class="exLink" href="https://www.nhc.noaa.gov/surge/" target="_blank">NHC Surge</a>
+      </td>
+      <td class="exLink" style="text-align: right; padding-right: 15px;">
+        <a class="exLink" href="https://water.noaa.gov/" target="_blank">NWPS</a> |
+        <a class="exLink" href="https://mag.ncep.noaa.gov/model-guidance-model-area.php" target="_blank">MAG</a> |
+        <a class="exLink" href="https://tidesandcurrents.noaa.gov/map/" target="_blank">CO-OPS</a> |
+        <a class="exLink" href="https://nowcoast.noaa.gov/" target="_blank">NowCoast</a>
+      </td>
+    </tr>
+  </table>
+-->
+</div>
+<div class="topSpacer"></div>
+
+<!-- Horizontal Navigation Bar -->
+<div class="nav-wrapper">
+  <div class="site-nav">
+    <hr class="nav-divider">
+    <nav class="nav-links">
+<!--      <a href="https://slosh.nws.noaa.gov">HOME</a> | -->
+      <a href="{{ '/' | relative_url }}">SLOSH Display Program</a> |
+      <a href="{{ '/docs/storm-surge-basics.html' | relative_url }}">Storm Surge - Basics</a> |
+      <a href="{{ '/docs/history.html' | relative_url }}">SDP - History</a>
+    </nav>
+    <hr class="nav-divider">
+  </div>
+</div>
+
+<!-- MAIN MARKDOWN CONTENT INJECTED HERE -->
+<div class="main-content">
+  {{ content }}
+</div>
+
+<!-- NWS FOOTER -->
+<div class="footer">
+  <div class="footSpacer"></div>
+  <div class="footInfo">
+    <div class="footCol">
+      <a href="https://www.usa.gov"><img src="{{ '/assets/images/usa_gov.png' | relative_url }}" alt="usa.gov" width="110" border="0" height="30"></a>
+    </div>
+    <div class="footCol" style="left:60px;width:310px;">
+      <a href="https://www.commerce.gov">US Dept of Commerce</a><br>
+      <a href="https://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br>
+      <a href="https://www.weather.gov" >National Weather Service</a><br>
+      <a href="https://vlab.noaa.gov/web/mdl">Office of Modeling and Development</a>
+    </div>
+    <div class="footCol" style="left:10px;">
+      Contact us:<br>
+      <a href='mailto:Arthur.Taylor@noaa.gov'>Arthur Taylor</a><br>
+      1325 East West Highway<br>Silver Spring, MD 20910<br>
+    </div>
+    <div class="footCol" style="left:50px;">
+      <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br>
+      <a href="https://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br>
+      <a href="https://www.weather.gov/help">Help</a><br>
+      <a href="https://www.weather.gov/glossary">Glossary</a>
+    </div>
+    <div class="footCol" style="left:100px;width:170px;">
+      <a href="https://www.weather.gov/privacy">Privacy Policy</a><br>
+      <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br>
+      <a href="https://www.weather.gov/about">About Us</a><br>
+      <a href="https://www.weather.gov/careers">Career Opportunities</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

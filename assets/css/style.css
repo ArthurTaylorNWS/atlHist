@@ -1,0 +1,141 @@
+/* ========================================== */
+/* GLOBAL PAGE ENVIRONMENT SETUP              */
+/* ========================================== */
+body {
+  width: 1000px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  background: #c5E5F5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Restore global link color */
+a:link {
+  color: #0000FF;
+  text-decoration: none;
+}
+
+/* ========================================== */
+/* MAIN CONTENT AREA (For your README)        */
+/* ========================================== */
+.main-content {
+  background: #ffffff;
+  padding: 10px 10px;
+  box-sizing: border-box; /* Keeps width strictly at 1000px */
+  min-height: 400px;
+  font-size: 16px;
+}
+/* Set the H3 headers to scale with the body */
+.main-content h3 {
+  font-size: 18px;
+}
+
+/* ========================================== */
+/* NWS HEADER STYLES                          */
+/* ========================================== */
+div.nwsHead {
+  height: 60px;
+  background-color: #ffffff;
+  margin-bottom: 1px;
+  box-shadow: 0px 7px 5px -3px #cccccc;
+}
+div.nwsHeadMid {
+  width: 680px;
+  margin-top: 5px;
+  margin-left: 9px;
+  font-size: 85%;
+  float: left;
+  display: block;
+}
+
+a.nwsHeadNoaa:link, a.nwsHeadNoaa:visited {
+  color: #003399;
+  text-decoration: none;
+}
+a.nwsHeadNoaa:hover { color: #ffad40; text-decoration: underline; }
+
+a.nwsHeadTitle:link, a.nwsHeadTitle:visited { color: #000000; font-size: 180%; text-decoration: none; }
+a.nwsHeadTitle:hover { color: #FF0000; text-decoration: underline; }
+.nwsHeadTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+img.nwsHeadLf { float: left; height: 60px; display: block; }
+img.nwsHeadRt { float: right; height: 60px; display: block; }
+
+/* ========================================== */
+/* NWS NAVIGATION & SPACERS                   */
+/* ========================================== */
+div.exLink {
+  padding: 2px 2px 0px 2px;
+  background-color: #ffffff;
+  margin-bottom: 2px;
+  box-shadow: 0px 7px 5px -3px #cccccc;
+}
+td.exLink { font-weight: bold; font-size: 15px; }
+a.exLink:link, a.exLink:visited { color: #003399; text-decoration: none; }
+a.exLink:hover { color: #FF0000; text-decoration: underline; }
+
+div.topSpacer {
+  width: 1000px;
+  height: 2px;
+  margin-top: 0px;
+  background: url('../images/head_shadow.png') center;
+}
+
+/* ========================================== */
+/* SITE NAVIGATION STYLES                     */
+/* ========================================== */
+.nav-wrapper {
+  background-color: #ffffff;
+  padding: 5px 0;
+}
+
+.site-nav {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-divider {
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+  margin: 6px 0;
+}
+
+/* ========================================== */
+/* NWS FOOTER STYLES                          */
+/* ========================================== */
+div.footer {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: auto;
+  padding: 3px 0px 10px 0px;
+  overflow: hidden;
+}
+.footer a:link { color: #1763ab; text-decoration: none; }
+.footer a:visited { color: #921ab2; }
+.footer a:hover { text-decoration: underline; }
+
+div.footSpacer {
+  width: 1000px;
+  height: 10px;
+  margin-top: 0px;
+  background: url('../images/head_shadow.png') center;
+}
+div.footInfo {
+  width: 100%;
+  line-height: 16px;
+  padding-right: 50px;
+  font: 8pt 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+div.footCol { float: left; position: relative; }
+/* Remove default Markdown margins at the top and bottom of the content box */
+.main-content > :first-child { margin-top: 0; }
+.main-content > :last-child { margin-bottom: 0; }
