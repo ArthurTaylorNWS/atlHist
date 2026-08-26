@@ -44,8 +44,11 @@ def format_storm_name(row):
     @param row A pandas Series representing a single row of storm data.
     @return A formatted string for the storm name column.
     """
+    if pd.isna(row.get("Storm")) or not str(row["Storm"]).strip():
+        return ""
+
     year = int(row["YYYY"]) if pd.notna(row["YYYY"]) else ""
-    storm = str(row["Storm"]) if pd.notna(row["Storm"]) else ""
+    storm = str(row["Storm"]).strip()
     name = f"{year}-{storm}"
 
     if pd.notna(row.get("Retire?")) and str(row["Retire?"]).strip().lower() == "yes":
@@ -145,6 +148,11 @@ def main():
         if current_year and current_year != row["YYYY"]:
             print("| &nbsp; | | | | | | | |")
         current_year = row["YYYY"]
+
+        # Skip placeholder/empty CSV rows so they don't render "YYYY-"
+        storm_val = str(row.get("Storm")).strip() if pd.notna(row.get("Storm")) else ""
+        if not storm_val or storm_val.lower() == "nan":
+            continue
 
         c_name = format_storm_name(row)
         c_date = str(row["Date"]) if pd.notna(row.get("Date")) else ""
