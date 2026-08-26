@@ -7,7 +7,7 @@ permalink: /
 ### Storm Surge Events in the Atlantic from 2005 to 2011
 Peak Storm Surge 1: <= 3 ft, 2: <= 6 ft, 3: <= 9 ft, 4: <= 12 ft, 5: <= 15 ft, 6: > 15ft
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
+| <th style="width:130px;">YYYY-Storm</th> | <th style="width:130px;">Date</th> | <th style="width:240px;">Cat, Pres, Dead, $bn</th> | <th style="width:140px;">Storm-Tide</th> | <th style="width:70px;">NOAA</th> | <th style="width:70px;">USGS</th> | <th style="width:240px;">Guidance</th> | <th style="width:240px;">Area</th> |
 |---|---|---|---|---|---|---|---|
 | [2011-Lee](https://en.wikipedia.org/wiki/Tropical_Storm_Lee_(2011)) | Sep 2-7 | (TS, 986, 18, $2.800) | w2: 4.67 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL132011_Lee.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#September2011flood-TropicalStormLee) | ETSS | LA, MS |
 | [2011-Irene (R)](https://en.wikipedia.org/wiki/Hurricane_Irene) | Aug 21-30 | (Cat3, 942, 58, $14.200) | w4: 11.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092011_Irene.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2011Irene) | PS 20-34 | Mid-Atl, NE US |
