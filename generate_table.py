@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S .venv/bin/python
 # -------------------------------------------------------------------------------
 # @file         generate_table.py                        Last Change: 2026-08-26
 # @author       Arthur.Taylor (NWS/OMD/MDSD)
@@ -109,6 +109,13 @@ def main():
     mask = (df["YYYY"] >= start_year) & (df["YYYY"] <= end_year)
     df_filtered = df[mask].copy().sort_values(by=["YYYY"], ascending=[False])
 
+    print("---")
+    print("layout: default")
+    print("title: Atlantic Storm Surge (2005-2011)")
+    print("permalink: /")
+    print("---")
+
+### Storm Surge Events in the Atlantic from {end_year} to {start_year}
     print(
         f"### Storm Surge Events in the Atlantic from "
         "{end_year} to {start_year}"
@@ -147,7 +154,7 @@ def main():
 
         print(
             f"| {c_name} | {c_date} | {c_stats} | {c_surge} | {c_noaa} | "
-            "{c_usgs} | {c_guide} | {c_area} |"
+            f"{c_usgs} | {c_guide} | {c_area} |"
         )
 
 
