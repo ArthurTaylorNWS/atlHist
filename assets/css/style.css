@@ -32,19 +32,20 @@ a:link {
   font-size: 18px;
 }
 /* Force clear table borders and explicit spacing */
-table {
+.main-content table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
   display: block;      /* Enables horizontal scrolling on small screens */
   overflow-x: auto;   /* Prevents table from breaking out of the page */
 }
-th, td {
+.main-content th,
+.main-content td {
   border: 1px solid #d0d7de; /* GitHub-style light gray border */
   padding: 8px 12px;
   text-align: left;
 }
-th {
+.main-content th {
   background-color: #f6f8fa;
   font-weight: bold;
 }

@@ -6,6 +6,7 @@
 # -------------------------------------------------------------------------------
 
 import math
+import os
 import sys
 import traceback
 
@@ -43,11 +44,14 @@ def format_storm_name(row):
     @param row A pandas Series representing a single row of storm data.
     @return A formatted string for the storm name column.
     """
-    name = f"{int(row['YYYY'])}-{row['Storm']}"
-    if str(row["Retire?"]).strip().lower() == "yes":
+    year = int(row["YYYY"]) if pd.notna(row["YYYY"]) else ""
+    storm = str(row["Storm"]) if pd.notna(row["Storm"]) else ""
+    name = f"{year}-{storm}"
+
+    if pd.notna(row.get("Retire?")) and str(row["Retire?"]).strip().lower() == "yes":
         name += " (R)"
 
-    if pd.notna(row["Wikipedia"]):
+    if pd.notna(row.get("Wikipedia")) and str(row["Wikipedia"]).strip():
         return f"[{name}]({row['Wikipedia']})"
     return name
 
@@ -58,18 +62,10 @@ def format_stats(row):
     @param row A pandas Series representing a single row of storm data.
     @return A formatted string enclosing the stats in parentheses.
     """
-    cat = ""
-    if pd.notna(row["Cat"]):
-        cat = row["Cat"]
-    pres = ""
-    if pd.notna(row["Pres"]):
-        pres = int(row["Pres"])
-    dead = ""
-    if pd.notna(row["Dead"]):
-        dead = row["Dead"]
-    bn = ""
-    if pd.notna(row["$bn"]):
-        bn = row["$bn"]
+    cat = row["Cat"] if pd.notna(row.get("Cat")) else ""
+    pres = int(row["Pres"]) if pd.notna(row.get("Pres")) else ""
+    dead = row["Dead"] if pd.notna(row.get("Dead")) else ""
+    bn = row["$bn"] if pd.notna(row.get("$bn")) else ""
     return f"({cat}, {pres}, {dead}, {bn})"
 
 
@@ -79,10 +75,13 @@ def format_surge(row):
     @param row A pandas Series representing a single row of storm data.
     @return A formatted string showing the surge category and value.
     """
-    surge = row["maxStmTide"]
+    surge = row.get("maxStmTide")
     if pd.notna(surge):
-        w_cat = math.ceil(float(surge) / 3.0)
-        return f"w{w_cat}: {surge} surge"
+        try:
+            w_cat = math.ceil(float(surge) / 3.0)
+            return f"w{w_cat}: {surge} surge"
+        except (ValueError, TypeError):
+            return f"{surge} surge"
     return ""
 
 
@@ -93,7 +92,7 @@ def format_link(text, url):
     @param url The URL string.
     @return A Markdown formatted link, or an empty string.
     """
-    if pd.notna(url):
+    if pd.notna(url) and str(url).strip():
         return f"[{text}]({url})"
     return ""
 
@@ -102,28 +101,38 @@ def main():
     """!
     @brief Main execution block for reading the CSV and printing the table.
     """
-    df = pd.read_csv("atlCSV.csv")
+    csv_file = "atlCSV.csv"
+    if not os.path.exists(csv_file):
+        print(f"Error: Could not locate storm surge CSV file.", file=sys.stderr)
+        sys.exit(1)
+
+    df = pd.read_csv(csv_file)
     start_year = 2005
     end_year = 2011
+
+    df["YYYY"] = pd.to_numeric(df["YYYY"], errors="coerce")
 
     mask = (df["YYYY"] >= start_year) & (df["YYYY"] <= end_year)
     df_filtered = df[mask].copy().sort_values(by=["YYYY"], ascending=[False])
 
+    # Print YAML Front Matter
     print("---")
     print("layout: default")
     print("title: Atlantic Storm Surge (2005-2011)")
     print("permalink: /")
-    print("---")
+    print("---\n")
 
-### Storm Surge Events in the Atlantic from {end_year} to {start_year}
+    # Print Section Title & Legend
     print(
         f"### Storm Surge Events in the Atlantic from "
-        "{end_year} to {start_year}"
+        f"{start_year} to {end_year}"
     )
     print(
         "Peak Storm Surge 1: <= 3 ft, 2: <= 6 ft, 3: <= 9 ft, 4: <= 12 ft, "
         "5: <= 15 ft, 6: > 15ft\n"
     )
+
+    # Print Markdown Table Headers
     print(
         "| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | "
         "USGS | Guidance | Area |"
@@ -132,25 +141,19 @@ def main():
 
     current_year = None
 
-    for index, row in df_filtered.iterrows():
+    for _, row in df_filtered.iterrows():
         if current_year and current_year != row["YYYY"]:
             print("| &nbsp; | | | | | | | |")
         current_year = row["YYYY"]
 
         c_name = format_storm_name(row)
-        c_date = ""
-        if pd.notna(row["Date"]):
-            c_date = row["Date"]
+        c_date = str(row["Date"]) if pd.notna(row.get("Date")) else ""
         c_stats = format_stats(row)
         c_surge = format_surge(row)
-        c_noaa = format_link("TCR", row["TCR or Ref."])
-        c_usgs = format_link("FEV", row["FEV"])
-        c_guide = ""
-        if pd.notna(row["Guidance"]):
-            c_guide = row["Guidance"]
-        c_area = ""
-        if pd.notna(row["Area"]):
-            c_area = row["Area"]
+        c_noaa = format_link("TCR", row.get("TCR or Ref."))
+        c_usgs = format_link("FEV", row.get("FEV"))
+        c_guide = str(row["Guidance"]) if pd.notna(row.get("Guidance")) else ""
+        c_area = str(row["Area"]) if pd.notna(row.get("Area")) else ""
 
         print(
             f"| {c_name} | {c_date} | {c_stats} | {c_surge} | {c_noaa} | "
