@@ -101,8 +101,10 @@ def main():
     
     # Add the legend here
     print(
-        "**Surge Index (w):** w3 (6–9 ft), w4 (9–12 ft), "
-        "w5 (12–15 ft), w6 (> 15 ft)\n"
+        "**Water Level Index (w):** w3 (6–9 ft), w4 (9–12 ft), w5 (12–15 ft), "
+        "w6 (15–18 ft), w7 (18–21 ft) ... w10 (27–30 ft).<br>"
+        "<em>*Note: Values in years >= 2012 are Peak Storm-Tide in Above Ground Level. "
+        "Values in year < 2012 are Peak Storm Surge.</em>\n"
     )
     
     print('<div class="decade-summary-table" markdown="1">\n')
@@ -135,6 +137,10 @@ def main():
                         
                         # Use &nbsp; only before the (w#) to keep the tag attached to the last word
                         display_name = f"{storm_val}-R&nbsp;(w{w_cat})" if is_retired else f"{storm_val}&nbsp;(w{w_cat})"
+                        
+                        # Emphasize w6 and higher in bold red
+                        if w_cat >= 6:
+                            display_name = f'<span style="color: #d73a49; font-weight: bold;">{display_name}</span>'
                         
                         anchor_id = f"{year}-{storm_val.replace(' ', '').lower()}"
                         storm_links.append(f'<a href="#{anchor_id}">{display_name}</a>')
