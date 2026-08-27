@@ -56,7 +56,7 @@ def format_surge(row):
     surge = row.get("maxStmTide")
     if pd.notna(surge):
         try:
-            w_cat = math.ceil(float(surge) / 3.0)
+            w_cat = math.floor(float(surge) / 3.0) + 1
             return f"w{w_cat}: {surge} surge"
         except (ValueError, TypeError):
             return f"{surge} surge"
@@ -101,15 +101,13 @@ def main():
     
     # Add the legend here
     print(
-        "**Water Level Index (w):** w3 (6–9 ft), w4 (9–12 ft), w5 (12–15 ft), "
-        "w6 (15–18 ft), w7 (18–21 ft) ... w10 (27–30 ft).<br>"
-        "<em>*Note: Values in years >= 2012 are Peak Storm-Tide in Above Ground Level. "
-        "Values in year < 2012 are Peak Storm Surge.</em>\n"
+        "**Water Level Index (w):** 3-ft brackets (w3 = 6.0–8.9', w4 = 9.0–11.9', ... w10 = 27.0–29.9')<br>"
+        "&nbsp;&nbsp;&nbsp;&nbsp;<small style='opacity:0.8;'><em>*Years after and including 2012: Peak Storm-Tide (AGL); before 2012: Peak Storm Surge</em></small>\n"
     )
     
     print('<div class="decade-summary-table" markdown="1">\n')
     
-    df_worst = df_filtered[df_filtered['maxStmTide'] > 6.0]
+    df_worst = df_filtered[df_filtered['maxStmTide'] >= 6.0]
     
     print("| | | | | | | | | | |")
     print("|---|---|---|---|---|---|---|---|---|---|")
@@ -133,7 +131,7 @@ def main():
                         storm_val = str(row["Storm"]).strip().replace("_", " ")
                         
                         is_retired = str(row.get("Retire?")).strip().lower() == "yes"
-                        w_cat = math.ceil(float(row["maxStmTide"]) / 3.0)
+                        w_cat = math.floor(float(row["maxStmTide"]) / 3.0) + 1
                         
                         # Use &nbsp; only before the (w#) to keep the tag attached to the last word
                         display_name = f"{storm_val}-R&nbsp;(w{w_cat})" if is_retired else f"{storm_val}&nbsp;(w{w_cat})"
