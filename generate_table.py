@@ -96,14 +96,14 @@ def main():
     print("permalink: /")
     print("---\n")
 
-    # ===== EXECUTIVE SUMMARY GRID (10-Column Decade Matrix) =====
+# ===== EXECUTIVE SUMMARY GRID (10-Column Decade Matrix) =====
     print("### Worst Storm Surge Events in the Atlantic (1900-2026)\n")
     print('<div class="decade-summary-table" markdown="1">\n')
     
     df_worst = df_filtered[df_filtered['maxStmTide'] > 6.0]
     
-    # 10 columns, 0 through 9
-    print("| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |")
+    # Empty header to satisfy Markdown parser without displaying labels
+    print("| | | | | | | | | | |")
     print("|---|---|---|---|---|---|---|---|---|---|")
 
     # Loop backwards from the 2020s down to the 1900s
@@ -112,28 +112,27 @@ def main():
         
         for year_digit in range(10):
             year = decade + year_digit
-            cell_content = f"**{year}**" # Every cell starts with the year
+            cell_content = ""  # Default to completely blank
             
             # Only process storms for years up to 2026
             if year <= 2026:
                 year_storms = df_worst[df_worst["YYYY"] == year]
                 
+                # If there are storms, inject the year and the storm data
                 if not year_storms.empty:
+                    cell_content = f"**{year}**"
                     storm_links = []
+                    
                     for _, row in year_storms.iterrows():
                         storm_val = str(row["Storm"]).strip()
                         is_retired = str(row.get("Retire?")).strip().lower() == "yes"
                         w_cat = math.ceil(float(row["maxStmTide"]) / 3.0)
                         
-                        # Format as Storm-R (w#) or Storm (w#)
                         display_name = f"{storm_val}-R (w{w_cat})" if is_retired else f"{storm_val} (w{w_cat})"
-                        
-                        # Create the anchor link
                         anchor_id = f"{year}-{storm_val.lower()}"
-                        link = f'<a href="#{anchor_id}">{display_name}</a>'
-                        storm_links.append(link)
+                        
+                        storm_links.append(f'<a href="#{anchor_id}">{display_name}</a>')
                     
-                    # Append the storm links with <br> separators
                     cell_content += "<br>" + "<br>".join(storm_links)
             
             row_cells.append(cell_content)
