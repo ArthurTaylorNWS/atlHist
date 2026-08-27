@@ -96,34 +96,48 @@ def main():
     print("permalink: /")
     print("---\n")
 
-    # ===== EXECUTIVE SUMMARY GRID =====
+    # ===== EXECUTIVE SUMMARY GRID (10-Column Decade Matrix) =====
     print("### Worst Storm Surge Events in the Atlantic (1900-2026)\n")
-    print('<div class="summary-grid" markdown="1">')
+    print('<div class="decade-summary-table" markdown="1">\n')
     
     df_worst = df_filtered[df_filtered['maxStmTide'] > 6.0]
     
-    columns = [
-        (2026, 1985),
-        (1984, 1943),
-        (1942, 1900)
-    ]
+    print("| Decade | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |")
+    print("|---|---|---|---|---|---|---|---|---|---|---|")
 
-    for start_yr, end_yr in columns:
-        print('  <div class="grid-col">')
-        for year in range(start_yr, end_yr - 1, -1):
+    # Loop backwards from the 2020s down to the 1900s
+    for decade in range(2020, 1890, -10):
+        row_cells = [f"**{decade}s**"]
+        
+        for year_digit in range(10):
+            year = decade + year_digit
+            
+            # Skip future years past our 2026 dataset
+            if year > 2026:
+                row_cells.append("")
+                continue
+                
             year_storms = df_worst[df_worst["YYYY"] == year]
+            
             if not year_storms.empty:
-                print(f"    <strong>{year}</strong>")
-                print("    <ul>")
+                storm_links = []
                 for _, row in year_storms.iterrows():
                     storm_val = str(row["Storm"]).strip()
                     retired = " (R)" if str(row.get("Retire?")).strip().lower() == "yes" else ""
-                    surge_val = row["maxStmTide"]
-                    w_cat = math.ceil(float(surge_val) / 3.0)
-                    print(f"      <li>{storm_val}{retired} (w{w_cat})</li>")
-                print("    </ul>")
-        print('  </div>')
-    print('</div>\n<hr>\n')
+                    w_cat = math.ceil(float(row["maxStmTide"]) / 3.0)
+                    
+                    # Create an anchor link pointing to the storm's specific row below
+                    anchor_id = f"{year}-{storm_val.lower()}"
+                    link = f'<a href="#{anchor_id}">{storm_val}{retired}<br>(w{w_cat})</a>'
+                    storm_links.append(link)
+                
+                row_cells.append("<br><br>".join(storm_links))
+            else:
+                row_cells.append("")
+                
+        print("| " + " | ".join(row_cells) + " |")
+        
+    print('\n</div>\n<hr>\n')
 
     # ===== DETAILED ERA TABLES =====
     eras = [
@@ -188,7 +202,9 @@ def main():
                 print(blank_row)
             current_year = row["YYYY"]
 
-            c_name = format_storm_name(row)
+            # Inject the anchor ID into the storm name column
+            anchor_id = f'{row["YYYY"]}-{storm_val.lower()}'
+            c_name = f'<span id="{anchor_id}"></span>' + format_storm_name(row)
             c_date = str(row["Date"]) if pd.notna(row.get("Date")) else ""
             c_stats = format_stats(row)
             c_surge = format_surge(row)
