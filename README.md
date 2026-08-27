@@ -8,6 +8,7 @@ permalink: /
 
 **Surge Index (w):** w3 (6–9 ft), w4 (9–12 ft), w5 (12–15 ft), w6 (> 15 ft)
 
+
 <div class="decade-summary-table" markdown="1">
 
 | | | | | | | | | | |
