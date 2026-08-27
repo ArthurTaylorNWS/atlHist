@@ -6,6 +6,8 @@ permalink: /
 
 ### Worst Storm Surge Events in the Atlantic (1900-2026)
 
+**Surge Index (w):** w3 (6–9 ft), w4 (9–12 ft), w5 (12–15 ft), w6 (> 15 ft)
+
 <div class="decade-summary-table" markdown="1">
 
 | | | | | | | | | | |
@@ -19,9 +21,9 @@ permalink: /
 |  | **1961**<br><a href="#1961-carla">Carla-R&nbsp;(w6)</a> |  |  |  |  |  | **1967**<br><a href="#1967-beulah">Beulah-R&nbsp;(w6)</a> | **1968**<br><a href="#1968-gladys">Gladys&nbsp;(w3)</a> | **1969**<br><a href="#1969-camille">Camille-R&nbsp;(w6)</a> |
 |  |  |  |  | **1954**<br><a href="#1954-hazel">Hazel-R&nbsp;(w6)</a><br><a href="#1954-carol">Carol-R&nbsp;(w6)</a> |  |  |  |  |  |
 |  |  |  |  |  | **1945**<br><a href="#1945-unnamed">Unnamed&nbsp;(w6)</a> |  |  |  |  |
-|  |  |  | **1933**<br><a href="#1933-ches-potomac_hurr">Ches-Potomac_Hurr&nbsp;(w4)</a> |  | **1935**<br><a href="#1935-labor_day">Labor_Day&nbsp;(w6)</a> |  |  | **1938**<br><a href="#1938-great_new_england">Great_New_England&nbsp;(w6)</a> |  |
-|  |  |  |  |  |  |  |  | **1928**<br><a href="#1928-lake_okee (aka san felipe segundo)">Lake_Okee (aka San Felipe Segundo)&nbsp;(w3)</a> |  |
-|  |  |  |  |  | **1915**<br><a href="#1915-new_orleans">New_Orleans&nbsp;(w6)</a> |  |  |  |  |
+|  |  |  | **1933**<br><a href="#1933-ches-potomachurr">Ches-Potomac Hurr&nbsp;(w4)</a> |  | **1935**<br><a href="#1935-laborday">Labor Day&nbsp;(w6)</a> |  |  | **1938**<br><a href="#1938-greatnewengland">Great New England&nbsp;(w6)</a> |  |
+|  |  |  |  |  |  |  |  | **1928**<br><a href="#1928-lakeokee(akasanfelipesegundo)">Lake Okee (aka San Felipe Segundo)&nbsp;(w3)</a> |  |
+|  |  |  |  |  | **1915**<br><a href="#1915-neworleans">New Orleans&nbsp;(w6)</a> |  |  |  |  |
 | **1900**<br><a href="#1900-galveston">Galveston&nbsp;(w6)</a> |  |  |  |  |  |  |  |  |  |
 
 </div>
