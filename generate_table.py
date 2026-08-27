@@ -102,38 +102,41 @@ def main():
     
     df_worst = df_filtered[df_filtered['maxStmTide'] > 6.0]
     
-    print("| Decade | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |")
-    print("|---|---|---|---|---|---|---|---|---|---|---|")
+    # 10 columns, 0 through 9
+    print("| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |")
+    print("|---|---|---|---|---|---|---|---|---|---|")
 
     # Loop backwards from the 2020s down to the 1900s
     for decade in range(2020, 1890, -10):
-        row_cells = [f"**{decade}s**"]
+        row_cells = []
         
         for year_digit in range(10):
             year = decade + year_digit
+            cell_content = f"**{year}**" # Every cell starts with the year
             
-            # Skip future years past our 2026 dataset
-            if year > 2026:
-                row_cells.append("")
-                continue
+            # Only process storms for years up to 2026
+            if year <= 2026:
+                year_storms = df_worst[df_worst["YYYY"] == year]
                 
-            year_storms = df_worst[df_worst["YYYY"] == year]
-            
-            if not year_storms.empty:
-                storm_links = []
-                for _, row in year_storms.iterrows():
-                    storm_val = str(row["Storm"]).strip()
-                    retired = " (R)" if str(row.get("Retire?")).strip().lower() == "yes" else ""
-                    w_cat = math.ceil(float(row["maxStmTide"]) / 3.0)
+                if not year_storms.empty:
+                    storm_links = []
+                    for _, row in year_storms.iterrows():
+                        storm_val = str(row["Storm"]).strip()
+                        is_retired = str(row.get("Retire?")).strip().lower() == "yes"
+                        w_cat = math.ceil(float(row["maxStmTide"]) / 3.0)
+                        
+                        # Format as Storm-R (w#) or Storm (w#)
+                        display_name = f"{storm_val}-R (w{w_cat})" if is_retired else f"{storm_val} (w{w_cat})"
+                        
+                        # Create the anchor link
+                        anchor_id = f"{year}-{storm_val.lower()}"
+                        link = f'<a href="#{anchor_id}">{display_name}</a>'
+                        storm_links.append(link)
                     
-                    # Create an anchor link pointing to the storm's specific row below
-                    anchor_id = f"{year}-{storm_val.lower()}"
-                    link = f'<a href="#{anchor_id}">{storm_val}{retired}<br>(w{w_cat})</a>'
-                    storm_links.append(link)
-                
-                row_cells.append("<br><br>".join(storm_links))
-            else:
-                row_cells.append("")
+                    # Append the storm links with <br> separators
+                    cell_content += "<br>" + "<br>".join(storm_links)
+            
+            row_cells.append(cell_content)
                 
         print("| " + " | ".join(row_cells) + " |")
         
