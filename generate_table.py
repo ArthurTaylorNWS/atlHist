@@ -54,13 +54,15 @@ def format_stats(row):
 
 def format_surge(row):
     surge = row.get("maxStmTide")
+    # Check if the surge value is a valid number (not blank/NaN)
     if pd.notna(surge):
         try:
             w_cat = math.floor(float(surge) / 3.0) + 1
             return f"w{w_cat}: {surge} surge"
         except (ValueError, TypeError):
-            return f"{surge} surge"
-    return ""
+            return f"w?: {surge} surge"
+    # If the surge was left blank, display it as TBD with an unknown w index
+    return "w?: TBD"
 
 
 def format_link(text, url):
