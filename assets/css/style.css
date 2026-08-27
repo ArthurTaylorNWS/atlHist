@@ -65,6 +65,10 @@ a:link {
   padding: 8px 4px;    /* Slightly tighter padding for narrow columns */
   word-wrap: break-word;
   word-break: break-word;
+/* font-size: 0.9em; */
+}
+.decade-summary-table thead {
+  display: none;
 }
 
 /* ========================================== */
