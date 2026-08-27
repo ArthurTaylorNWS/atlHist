@@ -51,6 +51,22 @@ a:link {
 }
 
 /* ========================================== */
+/* DECADE SUMMARY TABLE                       */
+/* ========================================== */
+/* Apply equal widths and top alignment to the summary grid */
+.decade-summary-table table {
+  width: 100%;
+  table-layout: fixed; /* Forces equal column widths */
+}
+.decade-summary-table th,
+.decade-summary-table td {
+  width: 10%;          /* 10 columns = 10% each */
+  vertical-align: top; /* Top justifies the text */
+  padding: 8px 4px;    /* Slightly tighter padding for narrow columns */
+  word-wrap: break-word;
+}
+
+/* ========================================== */
 /* NWS HEADER STYLES                          */
 /* ========================================== */
 div.nwsHead {

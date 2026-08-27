@@ -128,7 +128,8 @@ def main():
                         is_retired = str(row.get("Retire?")).strip().lower() == "yes"
                         w_cat = math.ceil(float(row["maxStmTide"]) / 3.0)
                         
-                        display_name = f"{storm_val}-R (w{w_cat})" if is_retired else f"{storm_val} (w{w_cat})"
+                        # Replace the standard space with &nbsp; before the (w#)
+                        display_name = f"{storm_val}-R&nbsp;(w{w_cat})" if is_retired else f"{storm_val}&nbsp;(w{w_cat})"
                         anchor_id = f"{year}-{storm_val.lower()}"
                         
                         storm_links.append(f'<a href="#{anchor_id}">{display_name}</a>')
