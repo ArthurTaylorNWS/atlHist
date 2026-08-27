@@ -36,10 +36,8 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
 |---|---|---|---|---|---|---|---|
-| <span id="2026-bertha"></span>[2026-Bertha](https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season) | Jul 19-24 | (TS, 995, 0, 0) | w2: 3.0 surge |  |  | PS 5-8 | FL, AL, LA |
-| &nbsp; | | | | | | | |
-| <span id="2025-melissa"></span>[2025-Melissa](https://en.wikipedia.org/wiki/Hurricane_Melissa) | Oct 21 - Nov 6 | (Cat5, 892, , ) |  |  | [FEV](https://storms.ngs.noaa.gov/storms/melissa/index.html#17.97/18.030803/-77.910556) |  | JAM, CUB |
 | <span id="2025-oct-et-2"></span>2025-Oct-ET-2 | Oct 29-31 | (ET, , , ) | w1: 2.5 surge |  |  |  |  |
+| <span id="2025-melissa"></span>[2025-Melissa](https://en.wikipedia.org/wiki/Hurricane_Melissa) | Oct 21 - Nov 6 | (Cat5, 892, , ) |  |  | [FEV](https://storms.ngs.noaa.gov/storms/melissa/index.html#17.97/18.030803/-77.910556) |  | JAM, CUB |
 | <span id="2025-oct-et-1"></span>2025-Oct-ET-1 | Oct 12-14 | (ET, , , ) | w2: 3.4 surge |  |  | P-ETSS (10/10 to 10/12) | NC, VA, MD, DE, NJ, NY |
 | <span id="2025-imelda"></span>[2025-Imelda](https://en.wikipedia.org/wiki/Tropical_Storm_Imelda_(2025)) | Sep 27 - Oct 1 | (TS, 996, 1, TBD) | w1: 2.0 surge |  |  | PS 4-7 | NC |
 | <span id="2025-erin"></span>[2025-Erin](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) | Aug 11-22 | (Cat5, 915, 10, $0.001) | w2: 3.3 surge |  |  | PS 29-42 | NC, VA, MD, DE, NJ, NY |
@@ -124,8 +122,8 @@ Starting in 2012, NHC Tropical Cyclone Reports shifted to reporting peak water l
 | <span id="2016-colin"></span>[2016-Colin](https://en.wikipedia.org/wiki/Tropical_Storm_Colin_(2016)) | Jun 5-7 | (TS, 1001, 6, $0.001) | w2: 3.6 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL032016_Colin.pdf) |  | PS 26-40 | {Cedar Key} FL |
 | <span id="2016-jan-et"></span>[2016-Jan-ET](https://en.wikipedia.org/wiki/January_2016_United_States_blizzard#Coastal_flooding) | Jan 23-24 | (ET, 983, 55, $0.500) | w2: 3.5 surge |  |  | ETSS v2.1 | {Cape May} NJ, DE |
 | &nbsp; | | | | | | | |
-| <span id="2015-joaquin"></span>[2015-Joaquin (R)](https://en.wikipedia.org/wiki/Hurricane_Joaquin) | Sep 28 - Oct 8 | (Cat4, 931, 34, $0.200) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112015_Joaquin.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2015Joaquin) | ETSS v2.0 | VA, BHS, BMU, CUB, HTI |
 | <span id="2015-oct-et"></span>[2015-Oct-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit) | Oct 4-5 | (ET, 1005, , ) | w2: 3.1 surge |  |  |  |  |
+| <span id="2015-joaquin"></span>[2015-Joaquin (R)](https://en.wikipedia.org/wiki/Hurricane_Joaquin) | Sep 28 - Oct 8 | (Cat4, 931, 34, $0.200) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112015_Joaquin.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2015Joaquin) | ETSS v2.0 | VA, BHS, BMU, CUB, HTI |
 | <span id="2015-erika"></span>[2015-Erika (R)](https://en.wikipedia.org/wiki/Tropical_Storm_Erika) | Aug 24-28 | (TS, 1001, 35, $0.511) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL052015_Erika.pdf) |  |  | DMA, HTI |
 | <span id="2015-jan-et"></span>2015-Jan-ET | Jan 26-28 | (ET, , , ) | w2: 3.4 surge |  | [FEV](https://stn.wim.usgs.gov/FEV/#2015JanExtratropicalCyclone) | ETSS v1.5 | CT, MA |
 | &nbsp; | | | | | | | |
@@ -152,12 +150,12 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | <span id="2011-irene"></span>[2011-Irene (R)](https://en.wikipedia.org/wiki/Hurricane_Irene) | Aug 21-30 | (Cat3, 942, 58, $14.200) | w4: 11.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092011_Irene.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2011Irene) | PS 20-34 | Mid-Atl, NE US |
 | &nbsp; | | | | | | | |
 | <span id="2010-tomas"></span>[2010-Tomas (R)](https://en.wikipedia.org/wiki/Hurricane_Tomas) | Oct 29 - Nov 11 | (Cat2, 982, 44, $0.463) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL212010_Tomas.pdf) |  |  | BRB, CUB, CUW, HTI, MTQ, VCT, LCA, TTO |
-| <span id="2010-igor"></span>[2010-Igor (R)](https://en.wikipedia.org/wiki/Hurricane_Igor) | Sep 8-23 | (Cat4, 924, 4, '$0.2) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112010_Igor.pdf) |  |  | CPV, BMU, CAN |
 | <span id="2010-matthew"></span>[2010-Matthew](https://en.wikipedia.org/wiki/Tropical_Storm_Matthew_(2010)) | Sep 23 - Sep 28 | (, , , ) |  |  |  |  |  |
 | <span id="2010-karl"></span>[2010-Karl](https://en.wikipedia.org/wiki/Hurricane_Karl) | Sep 14-18 | (, , , ) |  |  |  |  |  |
+| <span id="2010-igor"></span>[2010-Igor (R)](https://en.wikipedia.org/wiki/Hurricane_Igor) | Sep 8-23 | (Cat4, 924, 4, '$0.2) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112010_Igor.pdf) |  |  | CPV, BMU, CAN |
 | <span id="2010-hermine"></span>[2010-Hermine](https://en.wikipedia.org/wiki/Tropical_Storm_Hermine_(2010)) | Sep 3-10 | (TS, 989, 52, $0.740) | w2: 3.4 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL102010_Hermine.pdf) |  | PS 3-4 | TX, OK, MEX, CRI, GTM |
-| <span id="2010-sep-et"></span>2010-Sep-ET | Aug 21 - Sep 8 | (ET, , , ) |  |  | [FEV](https://stn.wim.usgs.gov/FEV/#Storm-September2010) | ETSS | MD, VA |
 | <span id="2010-earl"></span>[2010-Earl](https://en.wikipedia.org/wiki/Hurricane_Earl_(2010)) | Aug 25 - Sep 5 | (Cat4, 927, 8, $0.045) | w2: 4.27 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL072010_Earl.pdf) |  | PS 26-40 | PR, VI, NC |
+| <span id="2010-sep-et"></span>2010-Sep-ET | Aug 21 - Sep 8 | (ET, , , ) |  |  | [FEV](https://stn.wim.usgs.gov/FEV/#Storm-September2010) | ETSS | MD, VA |
 | <span id="2010-alex"></span>[2010-Alex](https://en.wikipedia.org/wiki/Hurricane_Alex_(2010)) | Jun 25 - Jul 6 | (Cat2, 946, 51, $1.500) | w2: 4.94 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL012010_Alex.pdf) |  | PS 12-22 | TX |
 | <span id="2010-mar-et"></span>2010-Mar-ET | Mar 13-15 | (ET, , , ) |  |  | [FEV](https://stn.wim.usgs.gov/FEV/#2010MarchExtratropicalCyclone) | ETSS | DC |
 | &nbsp; | | | | | | | |
