@@ -6,7 +6,7 @@ permalink: /
 
 ### Worst Storm Surge Events in the Atlantic (1900-2026)
 
-**Water Level Index (w):** 3-ft brackets (w3 = 6.0–8.9', w4 = 9.0–11.9', ... w10 = 27.0–29.9')<br>&nbsp;&nbsp;&nbsp;&nbsp;<small style='opacity:0.8;'><em>*Years after and including 2012: Peak Storm-Tide (AGL); before 2012: Peak Storm Surge</em></small>
+**Water Level Index (w):** 3-ft brackets (w3 = 6.0–8.9', w4 = 9.0–11.9', ... w10 = 27.0–29.9')<br>&nbsp;&nbsp;&nbsp;&nbsp;<small style='opacity:0.8;'><em>*Years after and including 2012 = Peak Storm-Tide (AGL); before 2012 = Peak Storm Surge</em></small>
 
 <div class="decade-summary-table" markdown="1">
 
@@ -36,6 +36,8 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
 |---|---|---|---|---|---|---|---|
+| <span id="2026-bertha"></span>[2026-Bertha](https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season) | Jul 19-24 | (TS, 995, 0, 0) | w2: 3.0 surge |  |  | PS 5-8 | FL, AL, LA |
+| &nbsp; | | | | | | | |
 | <span id="2025-melissa"></span>[2025-Melissa](https://en.wikipedia.org/wiki/Hurricane_Melissa) | Oct 21 - Nov 6 | (Cat5, 892, , ) |  |  | [FEV](https://storms.ngs.noaa.gov/storms/melissa/index.html#17.97/18.030803/-77.910556) |  | JAM, CUB |
 | <span id="2025-oct-et-2"></span>2025-Oct-ET-2 | Oct 29-31 | (ET, , , ) | w1: 2.5 surge |  |  |  |  |
 | <span id="2025-oct-et-1"></span>2025-Oct-ET-1 | Oct 12-14 | (ET, , , ) | w2: 3.4 surge |  |  | P-ETSS (10/10 to 10/12) | NC, VA, MD, DE, NJ, NY |

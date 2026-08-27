@@ -102,7 +102,7 @@ def main():
     # Add the legend here
     print(
         "**Water Level Index (w):** 3-ft brackets (w3 = 6.0–8.9', w4 = 9.0–11.9', ... w10 = 27.0–29.9')<br>"
-        "&nbsp;&nbsp;&nbsp;&nbsp;<small style='opacity:0.8;'><em>*Years after and including 2012: Peak Storm-Tide (AGL); before 2012: Peak Storm Surge</em></small>\n"
+        "&nbsp;&nbsp;&nbsp;&nbsp;<small style='opacity:0.8;'><em>*Years after and including 2012 = Peak Storm-Tide (AGL); before 2012 = Peak Storm Surge</em></small>\n"
     )
     
     print('<div class="decade-summary-table" markdown="1">\n')
