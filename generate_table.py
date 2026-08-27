@@ -1,8 +1,8 @@
 #!/usr/bin/env -S .venv/bin/python
 # -------------------------------------------------------------------------------
-# @file         generate_table.py                        Last Change: 2026-08-26
+# @file         generate_table.py
 # @author       Arthur.Taylor (NWS/OMD/MDSD)
-# @description  Parses the Atlantic storm CSV and generates a markdown table.
+# @description  Parses the Atlantic storm CSV and generates markdown tables.
 # -------------------------------------------------------------------------------
 
 import math
@@ -12,12 +12,6 @@ import traceback
 
 
 def exception_handler(exc_type, exc_value, tb):
-    """!
-    @brief Mimics a Bash 'trap ERR' to provide clean stderr output.
-    @param exc_type The type of the exception.
-    @param exc_value The exception instance.
-    @param tb The traceback object.
-    """
     tb_info = traceback.extract_tb(tb)[-1]
     line_num = tb_info.lineno
     print(f"Error on line {line_num}: {exc_value}", file=sys.stderr)
@@ -31,22 +25,13 @@ try:
     import pandas as pd
 except ImportError:
     print("Error: The 'pandas' library is required.", file=sys.stderr)
-    print(
-        "Run: source .venv/bin/activate && pip install pandas", file=sys.stderr
-    )
-    print("That could take 30 seconds or more", file=sys.stderr)
+    print("Run: .venv/bin/python -m pip install pandas", file=sys.stderr)
     sys.exit(1)
 
 
 def format_storm_name(row):
-    """!
-    @brief Formats the storm name, appending (R) and a wiki link if present.
-    @param row A pandas Series representing a single row of storm data.
-    @return A formatted string for the storm name column.
-    """
     if pd.isna(row.get("Storm")) or not str(row["Storm"]).strip():
         return ""
-
     year = int(row["YYYY"]) if pd.notna(row["YYYY"]) else ""
     storm = str(row["Storm"]).strip()
     name = f"{year}-{storm}"
@@ -60,11 +45,6 @@ def format_storm_name(row):
 
 
 def format_stats(row):
-    """!
-    @brief Formats the stats tuple (Category, Pressure, Dead, $bn).
-    @param row A pandas Series representing a single row of storm data.
-    @return A formatted string enclosing the stats in parentheses.
-    """
     cat = row["Cat"] if pd.notna(row.get("Cat")) else ""
     pres = int(row["Pres"]) if pd.notna(row.get("Pres")) else ""
     dead = row["Dead"] if pd.notna(row.get("Dead")) else ""
@@ -73,11 +53,6 @@ def format_stats(row):
 
 
 def format_surge(row):
-    """!
-    @brief Calculates the surge index 'w' and formats the output.
-    @param row A pandas Series representing a single row of storm data.
-    @return A formatted string showing the surge category and value.
-    """
     surge = row.get("maxStmTide")
     if pd.notna(surge):
         try:
@@ -89,84 +64,147 @@ def format_surge(row):
 
 
 def format_link(text, url):
-    """!
-    @brief Wraps text in a Markdown link if a valid URL exists.
-    @param text The display text for the link.
-    @param url The URL string.
-    @return A Markdown formatted link, or an empty string.
-    """
     if pd.notna(url) and str(url).strip():
         return f"[{text}]({url})"
     return ""
 
 
 def main():
-    """!
-    @brief Main execution block for reading the CSV and printing the table.
-    """
     csv_file = "atlCSV.csv"
     if not os.path.exists(csv_file):
-        print(f"Error: Could not locate storm surge CSV file.", file=sys.stderr)
+        for fallback in ["HistStm2 - atlCSV.csv", "historic/atlCSV.csv", "historic/HistStm2 - atlCSV.csv"]:
+            if os.path.exists(fallback):
+                csv_file = fallback
+                break
+
+    if not os.path.exists(csv_file):
+        print("Error: Could not locate storm surge CSV file.", file=sys.stderr)
         sys.exit(1)
 
     df = pd.read_csv(csv_file)
-    start_year = 2005
-    end_year = 2011
-
     df["YYYY"] = pd.to_numeric(df["YYYY"], errors="coerce")
+    df["maxStmTide"] = pd.to_numeric(df["maxStmTide"], errors="coerce")
 
-    mask = (df["YYYY"] >= start_year) & (df["YYYY"] <= end_year)
-    df_filtered = df[mask].copy().sort_values(by=["YYYY"], ascending=[False])
+    # Filter master dataframe
+    df_filtered = df[(df["YYYY"] >= 1900) & (df["YYYY"] <= 2026)].copy()
+    df_filtered = df_filtered.sort_values(by=["YYYY"], ascending=[False])
 
-    # Print YAML Front Matter
+    # ===== YAML FRONT MATTER =====
     print("---")
     print("layout: default")
-    print("title: Atlantic Storm Surge (2005-2011)")
+    print("title: Atlantic Storm Surge Database (1900-2026)")
     print("permalink: /")
     print("---\n")
 
-    # Print Section Title & Legend
-    print(
-        f"### Storm Surge Events in the Atlantic from "
-        f"{start_year} to {end_year}"
-    )
-    print(
-        "Peak Storm Surge 1: <= 3 ft, 2: <= 6 ft, 3: <= 9 ft, 4: <= 12 ft, "
-        "5: <= 15 ft, 6: > 15ft\n"
-    )
+    # ===== EXECUTIVE SUMMARY GRID =====
+    print("### Worst Storm Surge Events in the Atlantic (1900-2026)\n")
+    print('<div class="summary-grid" markdown="1">')
+    
+    df_worst = df_filtered[df_filtered['maxStmTide'] > 6.0]
+    
+    columns = [
+        (2026, 1985),
+        (1984, 1943),
+        (1942, 1900)
+    ]
 
-    # Print Markdown Table Headers
-    print(
-        "| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | "
-        "USGS | Guidance | Area |"
-    )
-    print("|---|---|---|---|---|---|---|---|")
+    for start_yr, end_yr in columns:
+        print('  <div class="grid-col">')
+        for year in range(start_yr, end_yr - 1, -1):
+            year_storms = df_worst[df_worst["YYYY"] == year]
+            if not year_storms.empty:
+                print(f"    <strong>{year}</strong>")
+                print("    <ul>")
+                for _, row in year_storms.iterrows():
+                    storm_val = str(row["Storm"]).strip()
+                    retired = " (R)" if str(row.get("Retire?")).strip().lower() == "yes" else ""
+                    surge_val = row["maxStmTide"]
+                    w_cat = math.ceil(float(surge_val) / 3.0)
+                    print(f"      <li>{storm_val}{retired} (w{w_cat})</li>")
+                print("    </ul>")
+        print('  </div>')
+    print('</div>\n<hr>\n')
 
-    current_year = None
-
-    for _, row in df_filtered.iterrows():
-        if current_year and current_year != row["YYYY"]:
-            print("| &nbsp; | | | | | | | |")
-        current_year = row["YYYY"]
-
-        # Skip placeholder/empty CSV rows so they don't render "YYYY-"
-        storm_val = str(row.get("Storm")).strip() if pd.notna(row.get("Storm")) else ""
-        if not storm_val or storm_val.lower() == "nan":
-            continue
-
-        c_name = format_storm_name(row)
-        c_date = str(row["Date"]) if pd.notna(row.get("Date")) else ""
-        c_stats = format_stats(row)
-        c_surge = format_surge(row)
-        c_noaa = format_link("TCR", row.get("TCR or Ref."))
-        c_usgs = format_link("FEV", row.get("FEV"))
-        c_guide = str(row["Guidance"]) if pd.notna(row.get("Guidance")) else ""
-        c_area = str(row["Area"]) if pd.notna(row.get("Area")) else ""
-
-        print(
-            f"| {c_name} | {c_date} | {c_stats} | {c_surge} | {c_noaa} | "
-            f"{c_usgs} | {c_guide} | {c_area} |"
+    # ===== DETAILED ERA TABLES =====
+    eras = [
+        (
+            2017, 2026, "2017–2026: The Watch/Warning Era", 
+            "In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See History](/docs/history/).", 
+            ["NOAA", "USGS", "Guidance", "Area"]
+        ),
+        (
+            2012, 2016, "2012–2016: The AGL Transition", 
+            "Starting in 2012, NHC Tropical Cyclone Reports shifted to reporting peak water levels as Above Ground Level (AGL). [See Bibliography](/docs/bibliography/).", 
+            ["NOAA", "USGS", "Guidance", "Area"]
+        ),
+        (
+            1999, 2011, "1999–2011: Early Guidance & P-Surge", 
+            "Captures the introduction of deterministic rexfiles in 1999 through the initial implementation of P-Surge guidance. [See History](/docs/history/).", 
+            ["NOAA", "USGS", "Guidance", "Area"]
+        ),
+        (
+            1991, 1998, "1991–1998: The Online TCR Era", 
+            "Tropical Cyclone Reports (TCRs) from this era are generally available online. Modern guidance columns are omitted.", 
+            ["NOAA", "USGS", "Area"]
+        ),
+        (
+            1954, 1990, "1954–1990: Retired Names & Early Models", 
+            "The practice of retiring significant hurricane names began in 1954. Early surge models like SPLASH and SLOSH were introduced in this era. [See Bibliography](/docs/bibliography/).", 
+            ["NOAA", "USGS", "Area"]
+        ),
+        (
+            1900, 1953, "1900–1953: Early 20th Century", 
+            "Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.", 
+            ["NOAA", "Area"]
         )
+    ]
+
+    for start_yr, end_yr, title, desc, cols in eras:
+        mask_era = (df_filtered["YYYY"] >= start_yr) & (df_filtered["YYYY"] <= end_yr)
+        df_era = df_filtered[mask_era]
+        
+        print(f"### {title}")
+        print(f"{desc}\n")
+        print('<div class="main-surge-table" markdown="1">\n')
+        
+        header_row = "| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide |"
+        divider_row = "|---|---|---|---|"
+        for col in ["NOAA", "USGS", "Guidance", "Area"]:
+            if col in cols:
+                header_row += f" {col} |"
+                divider_row += "---|"
+                
+        print(header_row)
+        print(divider_row)
+
+        current_year = None
+        for _, row in df_era.iterrows():
+            storm_val = str(row.get("Storm")).strip() if pd.notna(row.get("Storm")) else ""
+            if not storm_val or storm_val.lower() == "nan":
+                continue
+
+            if current_year and current_year != row["YYYY"]:
+                blank_row = "| &nbsp; | | | |" + "".join([" |" for _ in cols])
+                print(blank_row)
+            current_year = row["YYYY"]
+
+            c_name = format_storm_name(row)
+            c_date = str(row["Date"]) if pd.notna(row.get("Date")) else ""
+            c_stats = format_stats(row)
+            c_surge = format_surge(row)
+            c_noaa = format_link("TCR", row.get("TCR or Ref."))
+            c_usgs = format_link("FEV", row.get("FEV"))
+            c_guide = str(row["Guidance"]) if pd.notna(row.get("Guidance")) else ""
+            c_area = str(row["Area"]) if pd.notna(row.get("Area")) else ""
+
+            row_str = f"| {c_name} | {c_date} | {c_stats} | {c_surge} |"
+            if "NOAA" in cols: row_str += f" {c_noaa} |"
+            if "USGS" in cols: row_str += f" {c_usgs} |"
+            if "Guidance" in cols: row_str += f" {c_guide} |"
+            if "Area" in cols: row_str += f" {c_area} |"
+            print(row_str)
+            
+        print('\n</div>\n<hr>\n')
 
 
 if __name__ == "__main__":
