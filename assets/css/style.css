@@ -71,6 +71,31 @@ a:link {
   display: none;
 }
 
+/* ============================================================ */
+/* Storm Surge Era Tables: Column Width Controls                */
+/* ============================================================ */
+
+.main-surge-table table {
+    width: 100%;
+    table-layout: auto;
+}
+
+/* Force minimum widths for the first four standard columns */
+.main-surge-table th:nth-child(1) { min-width: 130px; } /* YYYY-Storm */
+.main-surge-table th:nth-child(2) { min-width: 100px; } /* Date */
+.main-surge-table th:nth-child(3) { min-width: 140px; } /* Stats */
+.main-surge-table th:nth-child(4) { min-width: 100px; } /* Storm-Tide */
+
+/* Prevent the Area column (which is always the last column) from squishing */
+.main-surge-table th:last-child {
+    width: 250px; /* Expands the Area column to take up available space */
+}
+
+/* Ensure text doesn't wrap awkwardly in the stats column */
+.main-surge-table td:nth-child(3) {
+    white-space: nowrap; 
+}
+
 /* ========================================== */
 /* NWS HEADER STYLES                          */
 /* ========================================== */
