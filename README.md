@@ -70,7 +70,7 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 | <span id="2021-nicholas"></span>[2021-Nicholas](https://en.wikipedia.org/wiki/Hurricane_Nicholas) | Sep 19-20 | (Cat1, 988, 2, $1.100) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL142021_Nicholas.pdf) |  | PS 2 | {N TX} |
 | <span id="2021-ida"></span>[2021-Ida (R)](https://en.wikipedia.org/wiki/Hurricane_Ida) | Aug 27-30 | (Cat4, 929, 107, $75.300) | w5: 14.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092021_Ida.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2021Ida) | PS 3-18 | {New Orleans - LA} |
 | <span id="2021-henri"></span>[2021-Henri](https://en.wikipedia.org/wiki/Hurricane_Henri) | Aug 20-22 | (Cat1, 986, 2, $0.700) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL082021_Henri.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2021Henri) | PS 18-27 | {New England} |
-| <span id="2021-fred"></span>[2021-Fred](https://en.wikipedia.org/wiki/Tropical_Storm_Fred_(2021)) | Aug 15,16 | (TS, 991, 7, $1.300) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062021_Fred.pdf) |  | PS 24-29 | {NW FL} FL |
+| <span id="2021-fred"></span>[2021-Fred](https://en.wikipedia.org/wiki/Tropical_Storm_Fred_(2021)) | Aug 15,16 | (TS, 991, 7, $1.300) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062021_Fred.pdf) |  | PS 24-29 | {NW FL} |
 | <span id="2021-elsa"></span>[2021-Elsa](https://en.wikipedia.org/wiki/Hurricane_Elsa) | Jun 30 - Jul 10 | (Cat1, 991, 13, $1.200) | w2: 3.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL052021_Elsa.pdf) |  | P-ETSS | {East Coast} |
 | <span id="2021-jan-et"></span>[2021-Jan-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit) | Jan 8 | (ET, 992, , ) | w1: 1.6 surge |  |  | P-ETSS | NC |
 | &nbsp; | | | | | | | |
@@ -169,7 +169,7 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | <span id="2008-hanna"></span>[2008-Hanna](https://en.wikipedia.org/wiki/Hurricane_Hanna_(2008)) | Aug 28 - Sep 12 | (, , , ) | w?: TBD |  |  |  |  |
 | <span id="2008-gustav"></span>[2008-Gustav (R)](https://en.wikipedia.org/wiki/Hurricane_Gustav) | Aug 25 - Sep 4 | (Cat4, 941, 153, $8.31) | w5: 13.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL072008_Gustav.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2008Gustav) | PS 25-33; Rexfile | LA, LS-ANT, GR-ANT |
 | <span id="2008-fay"></span>[2008-Fay](https://en.wikipedia.org/wiki/Tropical_Storm_Fay_(2008)) | Aug 15-27 | (TS, 986, 36, $0.560) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062008_Fay.pdf) |  | PS 7-20 | FL, GA, AL, MS, LA, PR, DOM, HTI, JAM, CYM, CUB |
-| <span id="2008-dolly"></span>[2008-Dolly](https://en.wikipedia.org/wiki/Hurricane_Dolly_(2008)) | Jul 20-26 | (Cat2, 963, 21, $1.6) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042008_Dolly.pdf) |  | PS 5-14 | {S. TX} TX, CYM, HND, BLZ, GTM, MEX |
+| <span id="2008-dolly"></span>[2008-Dolly](https://en.wikipedia.org/wiki/Hurricane_Dolly_(2008)) | Jul 20-26 | (Cat2, 963, 21, $1.6) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042008_Dolly.pdf) |  | PS 5-14 | {S TX}, CYM, HND, BLZ, GTM, MEX |
 | &nbsp; | | | | | | | |
 | <span id="2007-noel"></span>[2007-Noel (R)](https://en.wikipedia.org/wiki/Hurricane_Noel) | Nov 2-7 | (Cat1, 980, 220, $0.580) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL162007_Noel.pdf) |  |  | {Leeward Is}, PR, DOM, HTI, JAM, CUB, TCA, BHS, FL, {East US}, CAN |
 | <span id="2007-humberto"></span>[2007-Humberto](https://en.wikipedia.org/wiki/Hurricane_Humberto_(2007)) | Sep 12-14 | (Cat1, 985, 1, $0.50) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092007_Humberto.pdf) |  | PS 5-6 | TX, LA, MS, NC, SC |
@@ -180,7 +180,7 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | <span id="2006-ernesto"></span>[2006-Ernesto](https://en.wikipedia.org/wiki/Hurricane_Ernesto_(2006)) | Aug 24 - Sep 1 | (Cat1, 985, 11, $0.500) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062006_Ernesto.pdf) |  | ETSS | {East Coast}, {LS-ANT}, {GR-ANT}, CAN |
 | <span id="2006-alberto"></span>[2006-Alberto](https://en.wikipedia.org/wiki/Tropical_Storm_Alberto_(2006)) | Jun 10-19 | (TS, 995, 3, $0.420) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL012006_Alberto.pdf) |  | ETSS | {N.W. Caribbean}, {S.E. US}, CAN |
 | &nbsp; | | | | | | | |
-| <span id="2005-wilma"></span>[2005-Wilma (R)](https://en.wikipedia.org/wiki/Hurricane_Wilma) | Oct 15-26 | (Cat5, 882, 52, $22.4) | w4: 9.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL252005_Wilma.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2005Wilma) | PS 29-35 | {S. FL} FL, HTI, MEX, BHS, JAM |
+| <span id="2005-wilma"></span>[2005-Wilma (R)](https://en.wikipedia.org/wiki/Hurricane_Wilma) | Oct 15-26 | (Cat5, 882, 52, $22.4) | w4: 9.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL252005_Wilma.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2005Wilma) | PS 29-35 | {S. FL}, HTI, MEX, BHS, JAM |
 | <span id="2005-tammy"></span>[2005-Tammy](https://en.wikipedia.org/wiki/Tropical_Storm_Tammy_(2005)) | Oct 5-6 | (TS, 1001, 10, $0.030) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL222005_Tammy.pdf) |  | ETSS | FL, GA, SC, BHS |
 | <span id="2005-stan"></span>[2005-Stan (R)](https://en.wikipedia.org/wiki/Hurricane_Stan) | Oct 1-5 | (Cat1, 977, 1673, $3.98) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL202005_Stan.pdf) |  |  | CRI, NIC, HND, SLV, BLZ, GTM, MEX |
 | <span id="2005-rita"></span>[2005-Rita (R)](https://en.wikipedia.org/wiki/Hurricane_Rita) | Sep 18-26 | (Cat5, 895, 120, $18.5) | w6: 15.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL182005_Rita.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2005Rita) | ETSS | FL, LA, MS, TX |
@@ -191,7 +191,7 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | <span id="2005-cindy"></span>[2005-Cindy](https://en.wikipedia.org/wiki/Hurricane_Cindy_(2005)) | Jul 3-12 | (Cat1, 991, 3, $0.320) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL032005_Cindy.pdf) |  | ETSS | LA, MS, DE, MD, {Yuc-Pen} |
 | <span id="2005-feb-et"></span>[2005-Feb-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit#heading=h.gjdgxs) | Feb 28 | (, 992, , ) | w2: 3.7 surge |  |  | ETSS | NC |
 | &nbsp; | | | | | | | |
-| <span id="2004-jeanne"></span>[2004-Jeanne (R)](https://en.wikipedia.org/wiki/Hurricane_Jeanne) | Sep 13-28 | (Cat3, 950, 3037, $7.94) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112004_Jeanne.pdf) |  | PS 44-49 | {Melbourne, FL}, FL, SC, VA, HTI, DOM |
+| <span id="2004-jeanne"></span>[2004-Jeanne (R)](https://en.wikipedia.org/wiki/Hurricane_Jeanne) | Sep 13-28 | (Cat3, 950, 3037, $7.94) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112004_Jeanne.pdf) |  | PS 44-49 | {Melbourne - FL}, SC, VA, HTI, DOM |
 | <span id="2004-ivan"></span>[2004-Ivan (R)](https://en.wikipedia.org/wiki/Hurricane_Ivan) | Sep 2-25 | (Cat5, 910, 124, $26.1) | w6: 15.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092004_Ivan.pdf) |  | PS 48-54 | AL, NW FL, GRD, JAM, DOM, VEN, CYM, TTO, BRB |
 | <span id="2004-gaston"></span>[2004-Gaston](https://en.wikipedia.org/wiki/Hurricane_Gaston_(2004)) | Aug 27 - Sep 3 | (Cat1, 985, 9, $0.130) | w2: 4.5 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL072004_Gaston.pdf) |  | ETSS | NC, SC, VA, MD, DE, MA |
 | <span id="2004-frances"></span>[2004-Frances (R)](https://en.wikipedia.org/wiki/Hurricane_Frances) | Aug 24 - Sep 10 | (Cat4, 935, 50, $10.1) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062004_Frances.pdf) |  | PS 37-44 | FL, GA, SC, NC, BHS, CAN |
@@ -260,7 +260,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 | <span id="1993-bret"></span>[1993-Bret](https://en.wikipedia.org/wiki/Tropical_Storm_Bret_(1993)) | Aug 4-11 | (, , , ) | w?: TBD |  |  |  |
 | <span id="1993-storm_of_century"></span>[1993-Storm_of_Century](https://tidesandcurrents.noaa.gov/inundationdb/inundation.html?id=8658120#top10event) | Mar 13 | (ET, , , ) | w1: 2.82 surge |  |  | NC |
 | &nbsp; | | | | | | |
-| <span id="1992-andrew"></span>[1992-Andrew (R)](http://en.wikipedia.org/wiki/Hurricane_Andrew) | August | (, 922, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#atlantic) |  | FL |
+| <span id="1992-andrew"></span>[1992-Andrew (R)](http://en.wikipedia.org/wiki/Hurricane_Andrew) | Aug | (, 922, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#atlantic) |  | FL |
 | &nbsp; | | | | | | |
 | <span id="1991-perfect_storm"></span>[1991-Perfect_Storm](http://en.wikipedia.org/wiki/1991_Perfect_Storm) | Oct | (, , , ) | w?: TBD |  |  |  |
 | <span id="1991-bob"></span>[1991-Bob (R)](https://en.wikipedia.org/wiki/Hurricane_Bob) | Aug 16-29 | (, , , ) | w?: TBD |  |  |  |
@@ -278,15 +278,15 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 | <span id="1990-klaus"></span>[1990-Klaus (R)](https://en.wikipedia.org/wiki/Hurricane_Klaus_(1990)) | Oct 3-9 | (, , , ) | w?: TBD |  |  |  |
 | <span id="1990-diana"></span>[1990-Diana (R)](https://en.wikipedia.org/wiki/Hurricane_Diana) | Aug 4-9 | (, , , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
-| <span id="1989-hugo"></span>[1989-Hugo (R)](http://en.wikipedia.org/wiki/Hurricane_Hugo) | September | (, 918, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#atlantic) |  | SC |
+| <span id="1989-hugo"></span>[1989-Hugo (R)](http://en.wikipedia.org/wiki/Hurricane_Hugo) | Sep | (, 918, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#atlantic) |  | SC |
 | <span id="1989-chantal"></span>1989-Chantal |  | (, , , ) | w3: 7.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | TX |
 | &nbsp; | | | | | | |
 | <span id="1988-joan"></span>[1988-Joan (R)](http://en.wikipedia.org/wiki/Hurricane_Joan) | Oct | (, , , ) | w?: TBD |  |  |  |
-| <span id="1988-gilbert"></span>[1988-Gilbert (R)](http://en.wikipedia.org/wiki/Hurricane_Gilbert) | September | (, 888, , ) | w2: 5.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | TX |
+| <span id="1988-gilbert"></span>[1988-Gilbert (R)](http://en.wikipedia.org/wiki/Hurricane_Gilbert) | Sep | (, 888, , ) | w2: 5.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | TX |
 | <span id="1988-florence"></span>1988-Florence |  | (, , , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
 | <span id="1985-juan"></span>[1985-Juan](https://en.wikipedia.org/wiki/Hurricane_Juan_(1985)) | Oct 26 - Nov 3 | (, , , ) | w3: 8.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | LA |
-| <span id="1985-gloria"></span>1985-Gloria (R) | September | (, 919, , ) | w?: TBD |  |  |  |
+| <span id="1985-gloria"></span>1985-Gloria (R) | Sep | (, 919, , ) | w?: TBD |  |  |  |
 | <span id="1985-elena"></span>[1985-Elena (R)](https://en.wikipedia.org/wiki/Hurricane_Elena) | Aug 28 - Sep 4 | (, , , ) | w?: TBD |  |  |  |
 | <span id="1985-danny"></span>1985-Danny |  | (, , , ) | w3: 8.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | LA |
 | &nbsp; | | | | | | |
@@ -294,7 +294,7 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 | &nbsp; | | | | | | |
 | <span id="1980-jeanne"></span>[1980-Jeanne](https://en.wikipedia.org/wiki/Hurricane_Jeanne_(1980)) | Nov 7-16 | (, , , ) | w2: 4.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | TX |
 | <span id="1980-danielle"></span>[1980-Danielle](https://en.wikipedia.org/wiki/Tropical_Storm_Danielle_(1980)) | Sep 4-7 | (, , , ) | w2: 3.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | SW LA, TX |
-| <span id="1980-allen"></span>[1980-Allen (R)](http://en.wikipedia.org/wiki/Hurricane_Allen) | August | (, 899, , ) | w?: TBD |  |  |  |
+| <span id="1980-allen"></span>[1980-Allen (R)](http://en.wikipedia.org/wiki/Hurricane_Allen) | Aug | (, 899, , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
 | <span id="1979-frederic"></span>[1979-Frederic (R)](http://en.wikipedia.org/wiki/Hurricane_Frederic) | Sep | (, , , ) | w?: TBD |  |  |  |
 | <span id="1979-david"></span>[1979-David (R)](http://en.wikipedia.org/wiki/Hurricane_David) | Aug/Sep | (, , , ) | w?: TBD |  |  |  |
@@ -316,12 +316,12 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 | &nbsp; | | | | | | |
 | <span id="1970-celia"></span>[1970-Celia (R)](https://en.wikipedia.org/wiki/Hurricane_Celia) | Jul 31 - Aug 5 | (, , , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
-| <span id="1969-camille"></span>[1969-Camille (R)](http://en.wikipedia.org/wiki/Hurricane_Camille) | August | (, 900, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#gulf) |  | LA, MS |
+| <span id="1969-camille"></span>[1969-Camille (R)](http://en.wikipedia.org/wiki/Hurricane_Camille) | Aug | (, 900, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#gulf) |  | LA, MS |
 | &nbsp; | | | | | | |
 | <span id="1968-gladys"></span>1968-Gladys |  | (, , , ) | w3: 6.5 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | FL |
-| <span id="1968-candy"></span>1968-Candy |  | (, , , ) | w2: 4.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | {Corpus Cristi BayTX}, TX |
+| <span id="1968-candy"></span>1968-Candy |  | (, , , ) | w2: 4.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | {Corpus Cristi Bay - TX} |
 | &nbsp; | | | | | | |
-| <span id="1967-beulah"></span>[1967-Beulah (R)](http://en.wikipedia.org/wiki/Hurricane_Beulah) | September | (, 921, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#gulf) |  | TX |
+| <span id="1967-beulah"></span>[1967-Beulah (R)](http://en.wikipedia.org/wiki/Hurricane_Beulah) | Sep | (, 921, , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#gulf) |  | TX |
 | &nbsp; | | | | | | |
 | <span id="1966-inez"></span>[1966-Inez (R)](http://en.wikipedia.org/wiki/Hurricane_Inez) | Sep/Oct | (, , , ) | w?: TBD |  |  |  |
 | <span id="1966-faith"></span>[1966-Faith](http://en.wikipedia.org/wiki/Hurricane_Faith) | Aug/Sep | (, , , ) | w?: TBD |  |  |  |
@@ -335,7 +335,7 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 | <span id="1963-flora"></span>[1963-Flora (R)](http://en.wikipedia.org/wiki/Hurricane_Flora) | Oct | (, , , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
 | <span id="1961-hattie"></span>[1961-Hattie (R)](http://en.wikipedia.org/wiki/Hurricane_Hattie) | October | (, 914, , ) | w?: TBD |  |  |  |
-| <span id="1961-esther"></span>1961-Esther | September | (, 919, , ) | w?: TBD |  |  |  |
+| <span id="1961-esther"></span>1961-Esther | Sep | (, 919, , ) | w?: TBD |  |  |  |
 | <span id="1961-carla"></span>[1961-Carla (R)](http://en.wikipedia.org/wiki/Hurricane_Carla) | Sep | (, , , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#gulf) |  | TX, LA |
 | &nbsp; | | | | | | |
 | <span id="1960-donna"></span>[1960-Donna (R)](http://en.wikipedia.org/wiki/Hurricane_Donna) | Sep | (, , , ) | w?: TBD |  |  |  |
@@ -409,8 +409,8 @@ Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.
 | <span id="1933-ches-potomac_hurr"></span>[1933-Ches-Potomac_Hurr](https://en.wikipedia.org/wiki/1933_Chesapeake%E2%80%93Potomac_hurricane) | Aug 13-25 | (Cat4, 940, 47, $0.04) | w4: 10.0 surge |  | NC, VA, DC, MD, DE, CAN |
 | &nbsp; | | | | | |
 | <span id="1932-great_cuban"></span>[1932-Great_Cuban](http://en.wikipedia.org/wiki/1932_Cuba_hurricane) | Nov | (, , , ) | w?: TBD |  |  |
-| <span id="1932-camaguey"></span>1932-Camaguey | November | (, 915, , ) | w?: TBD |  |  |
-| <span id="1932-great_abaco"></span>1932-Great_Abaco | September | (, 921, , ) | w?: TBD |  |  |
+| <span id="1932-camaguey"></span>1932-Camaguey | Nov | (, 915, , ) | w?: TBD |  |  |
+| <span id="1932-great_abaco"></span>1932-Great_Abaco | Sep | (, 921, , ) | w?: TBD |  |  |
 | <span id="1932-san_ciprian"></span>[1932-San_Ciprian](https://en.wikipedia.org/wiki/1932_San_Cipri%C3%A1n_hurricane) | Sep 25 - Oct 3 | (, , , ) | w?: TBD |  |  |
 | &nbsp; | | | | | |
 | <span id="1931-nationalday_hurr"></span>[1931-NationalDay_Hurr](http://en.wikipedia.org/wiki/1931_Belize_hurricane) | Sep | (, , , ) | w?: TBD |  |  |
