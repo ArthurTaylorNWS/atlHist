@@ -88,6 +88,7 @@ a:link {
 /* 1. Set strict pixel widths for standard base columns */
 .main-surge-table th:nth-child(1) { width: 135px; } /* YYYY-Storm */
 .main-surge-table th:nth-child(2) { width: 105px; } /* Date */
+.main-surge-table th:nth-child(3) { width: 105px; } /* Stats */
 .main-surge-table th:nth-child(4) { width: 105px; } /* Storm-Tide */
 
 /* 2. Set strict pixel widths for dynamic columns based on table size */
@@ -100,10 +101,6 @@ a:link {
 
 .cols-6 th:nth-child(5) { width: 65px; }  /* NOAA */
 
-/* 3. Let Stats and Area dynamically absorb ALL remaining screen space */
-.main-surge-table th:nth-child(3) {
-    width: 25%; /* Give Stats a proportional chunk of the remaining space */
-}
 .main-surge-table th:last-child {
     width: auto; /* Force Area to stretch to the absolute edge of the table */
 }
