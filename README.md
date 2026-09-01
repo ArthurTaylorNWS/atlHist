@@ -34,7 +34,7 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 
 <div class="main-surge-table" markdown="1">
 
-| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | Guidance | <div style='width:200px'>Area</div> |
+| <div style='width:10px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | Guidance | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|---|---|
 | <span id="2026-bertha"></span>[2026-Bertha](https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season) | Jul 19-24 | (TS, 995, 0, 0) | w2: 3.0 surge |  |  | PS 5-8 | FL, AL, LA |
 | &nbsp; | | | | | | | |
