@@ -191,9 +191,11 @@ def main():
         mask_era = (df_filtered["YYYY"] >= start_yr) & (df_filtered["YYYY"] <= end_yr)
         df_era = df_filtered[mask_era]
         
+        total_cols = 4 + len(cols)
+        
         print(f"### {title}")
         print(f"{desc}\n")
-        print('<div class="main-surge-table" markdown="1">\n')
+        print(f'<div class="main-surge-table cols-{total_cols}" markdown="1">\n')
         
         header_row = "| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide |"
         divider_row = "|---|---|---|---|"

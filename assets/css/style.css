@@ -72,29 +72,52 @@ a:link {
 }
 
 /* ============================================================ */
-/* Storm Surge Era Tables: Column Width Controls                */
+/* Storm Surge Era Tables: Column Width Configurations          */
 /* ============================================================ */
 
 .main-surge-table table {
     width: 100%;
-    table-layout: auto;
+    table-layout: fixed; /* Forces browser to strictly obey your widths */
 }
 
-/* Force minimum widths for the first four standard columns */
-.main-surge-table th:nth-child(1) { min-width: 130px; } /* YYYY-Storm */
-.main-surge-table th:nth-child(2) { min-width: 100px; } /* Date */
-.main-surge-table th:nth-child(3) { min-width: 140px; } /* Stats */
-.main-surge-table th:nth-child(4) { min-width: 100px; } /* Storm-Tide */
-
-/* Prevent the Area column (which is always the last column) from squishing */
-.main-surge-table th:last-child {
-    width: 250px; /* Expands the Area column to take up available space */
-}
-
-/* Ensure text doesn't wrap awkwardly in the stats column */
+/* Prevent text wrapping in the stats column across all tables */
 .main-surge-table td:nth-child(3) {
     white-space: nowrap; 
 }
+
+/* ----------------------------------------- */
+/* 8-Column Tables (2012-2026 eras)          */
+/* ----------------------------------------- */
+.cols-8 th:nth-child(1) { width: 14%; } /* YYYY-Storm */
+.cols-8 th:nth-child(2) { width: 10%; } /* Date */
+.cols-8 th:nth-child(3) { width: 17%; } /* Stats */
+.cols-8 th:nth-child(4) { width: 10%; } /* Surge */
+.cols-8 th:nth-child(5) { width: 7%; }  /* NOAA */
+.cols-8 th:nth-child(6) { width: 7%; }  /* USGS */
+.cols-8 th:nth-child(7) { width: 10%; } /* Guidance */
+.cols-8 th:nth-child(8) { width: 25%; } /* Area */
+
+/* ----------------------------------------- */
+/* 7-Column Tables (1954-1998 eras)          */
+/* ----------------------------------------- */
+.cols-7 th:nth-child(1) { width: 16%; } /* YYYY-Storm */
+.cols-7 th:nth-child(2) { width: 12%; } /* Date */
+.cols-7 th:nth-child(3) { width: 19%; } /* Stats */
+.cols-7 th:nth-child(4) { width: 12%; } /* Surge */
+.cols-7 th:nth-child(5) { width: 8%; }  /* NOAA */
+.cols-7 th:nth-child(6) { width: 8%; }  /* USGS */
+.cols-7 th:nth-child(7) { width: 25%; } /* Area */
+
+/* ----------------------------------------- */
+/* 6-Column Tables (1900-1953 eras)          */
+/* ----------------------------------------- */
+.cols-6 th:nth-child(1) { width: 18%; } /* YYYY-Storm */
+.cols-6 th:nth-child(2) { width: 12%; } /* Date */
+.cols-6 th:nth-child(3) { width: 22%; } /* Stats */
+.cols-6 th:nth-child(4) { width: 13%; } /* Surge */
+.cols-6 th:nth-child(5) { width: 9%; }  /* NOAA */
+.cols-6 th:nth-child(6) { width: 26%; } /* Area */
+
 
 /* ========================================== */
 /* NWS HEADER STYLES                          */

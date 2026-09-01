@@ -32,7 +32,7 @@ permalink: /
 ### 2017–2026: The Watch/Warning Era
 In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See History](/docs/history/).
 
-<div class="main-surge-table" markdown="1">
+<div class="main-surge-table cols-8" markdown="1">
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
 |---|---|---|---|---|---|---|---|
@@ -113,7 +113,7 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 ### 2012–2016: The AGL Transition
 Starting in 2012, NHC Tropical Cyclone Reports shifted to reporting peak water levels as Above Ground Level (AGL). [See Bibliography](/docs/bibliography/).
 
-<div class="main-surge-table" markdown="1">
+<div class="main-surge-table cols-8" markdown="1">
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
 |---|---|---|---|---|---|---|---|
@@ -143,7 +143,7 @@ Starting in 2012, NHC Tropical Cyclone Reports shifted to reporting peak water l
 ### 1999–2011: Early Guidance & P-Surge
 Captures the introduction of deterministic rexfiles in 1999 through the initial implementation of P-Surge guidance. [See History](/docs/history/).
 
-<div class="main-surge-table" markdown="1">
+<div class="main-surge-table cols-8" markdown="1">
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
 |---|---|---|---|---|---|---|---|
@@ -228,7 +228,7 @@ DOM+HTI, JAM, CYM, CUB |
 ### 1991–1998: The Online TCR Era
 Tropical Cyclone Reports (TCRs) from this era are generally available online. Modern guidance columns are omitted.
 
-<div class="main-surge-table" markdown="1">
+<div class="main-surge-table cols-7" markdown="1">
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Area |
 |---|---|---|---|---|---|---|
@@ -272,7 +272,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 ### 1954–1990: Retired Names & Early Models
 The practice of retiring significant hurricane names began in 1954. Early surge models like SPLASH and SLOSH were introduced in this era. [See Bibliography](/docs/bibliography/).
 
-<div class="main-surge-table" markdown="1">
+<div class="main-surge-table cols-7" markdown="1">
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Area |
 |---|---|---|---|---|---|---|
@@ -370,7 +370,7 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 ### 1900–1953: Early 20th Century
 Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.
 
-<div class="main-surge-table" markdown="1">
+<div class="main-surge-table cols-6" markdown="1">
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | Area |
 |---|---|---|---|---|---|
