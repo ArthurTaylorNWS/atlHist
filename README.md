@@ -334,7 +334,7 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 | &nbsp; | | | | | | |
 | <span id="1963-flora"></span>[1963-Flora (R)](http://en.wikipedia.org/wiki/Hurricane_Flora) | Oct | (, , , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
-| <span id="1961-hattie"></span>[1961-Hattie (R)](http://en.wikipedia.org/wiki/Hurricane_Hattie) | October | (, 914, , ) | w?: TBD |  |  |  |
+| <span id="1961-hattie"></span>[1961-Hattie (R)](http://en.wikipedia.org/wiki/Hurricane_Hattie) | Oct | (, 914, , ) | w?: TBD |  |  |  |
 | <span id="1961-esther"></span>1961-Esther | Sep | (, 919, , ) | w?: TBD |  |  |  |
 | <span id="1961-carla"></span>[1961-Carla (R)](http://en.wikipedia.org/wiki/Hurricane_Carla) | Sep | (, , , ) | w6: 17.0 surge | [TCR](https://surge.climate.lsu.edu/historical_maps.html#gulf) |  | TX, LA |
 | &nbsp; | | | | | | |
