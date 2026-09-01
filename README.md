@@ -86,7 +86,7 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 | <span id="2020-hanna"></span>[2020-Hanna](https://en.wikipedia.org/wiki/Hurricane_Hanna_(2020)) | Jul 24-26 | (Cat1, 973, 9, $1.200) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL082020_Hanna.pdf) |  | PS 8-13 | {S TX} |
 | <span id="2020-cristobal"></span>[2020-Cristobal](https://en.wikipedia.org/wiki/Tropical_storms_Amanda_and_Cristobal) | Jun 1-12 | (TS, 988, 46, $0.865) | w3: 6.2 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL032020_Cristobal.pdf) |  | P-ETSS | LA |
 | &nbsp; | | | | | | | |
-| <span id="2019-lorenzo"></span>[2019-Lorenzo](https://en.wikipedia.org/wiki/Hurricane_Lorenzo_(2019)) | Sep 23 - Oct 7 | (Cat5, 925, 20, $0.367) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL132019_Lorenzo.pdf) |  |  | {W. Africa}, CPV, {LS-ANT}, {U.S.}, IRL, {Azores}, GBR, FRA, DEU, {E. Europe} |
+| <span id="2019-lorenzo"></span>[2019-Lorenzo](https://en.wikipedia.org/wiki/Hurricane_Lorenzo_(2019)) | Sep 23 - Oct 7 | (Cat5, 925, 20, $0.367) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL132019_Lorenzo.pdf) |  |  | {W. Africa}, CPV, {LS-ANT}, {US}, IRL, {Azores}, GBR, FRA, DEU, {E. Europe} |
 | <span id="2019-imelda"></span>[2019-Imelda](https://en.wikipedia.org/wiki/Tropical_Storm_Imelda) | Sep 17-19 | (TS, 1003, 7, $4.800) | w1: 2.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112019_Imelda.pdf) |  |  | TX, LA |
 | <span id="2019-dorian"></span>[2019-Dorian (R)](https://en.wikipedia.org/wiki/Hurricane_Dorian) | Sep 1-6 | (Cat5, 910, 84, $5.100) | w3: 7.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL052019_Dorian.pdf) |  | PS 33-53 | FL, NC |
 | <span id="2019-barry"></span>[2019-Barry](https://en.wikipedia.org/wiki/Hurricane_Barry_(2019)) | Jul 10-14 | (Cat1, 993, 3, $0.900) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL022019_Barry.pdf) |  | PS 1-16 | LA |
@@ -417,7 +417,7 @@ Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.
 | &nbsp; | | | | | |
 | <span id="1930-santo_domingo_hurr"></span>[1930-Santo_Domingo_Hurr](http://en.wikipedia.org/wiki/1930_Dominican_Republic_hurricane) | Sep | (, , , ) | w?: TBD |  |  |
 | &nbsp; | | | | | |
-| <span id="1928-lake_okee (aka san felipe segundo)"></span>[1928-Lake_Okee (aka San Felipe Segundo)](http://en.wikipedia.org/wiki/1928_Okeechobee_hurricane) | Sep 6-21 | (Cat5, 926, 4114, $0.10) | w4: 9.0 surge |  | VI, PR, {FL Oke}, {W. Africa}, {Portuguese}, CPV, {Guadeloupe}, BHS |
+| <span id="1928-lake_okee (aka san felipe segundo)"></span>[1928-Lake_Okee (aka San Felipe Segundo)](http://en.wikipedia.org/wiki/1928_Okeechobee_hurricane) | Sep 6-21 | (Cat5, 926, 4114, $0.10) | w4: 9.0 surge |  | VI, PR, {FL Oke}, {W. Africa}, PRT, CPV, GLP, BHS |
 | &nbsp; | | | | | |
 | <span id="1926-lahabana_hurr"></span>[1926-LaHabana_Hurr](http://en.wikipedia.org/wiki/1926_Atlantic_hurricane_season#Hurricane_Ten) | Oct | (, , , ) | w?: TBD |  |  |
 | <span id="1926-great_miami"></span>[1926-Great_Miami](http://en.wikipedia.org/wiki/1926_Miami_hurricane) | Sep 11-22 | (Cat4, 930, 539, $0.10) | w2: 4.2 surge | [TCR](https://www.intechopen.com/chapters/15338) | {FL Panhandle} |
