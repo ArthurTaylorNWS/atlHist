@@ -88,18 +88,18 @@ a:link {
 /* 1. Set strict pixel widths for standard base columns */
 .main-surge-table th:nth-child(1) { width: 135px; } /* YYYY-Storm */
 .main-surge-table th:nth-child(2) { width: 120px; } /* Date */
-.main-surge-table th:nth-child(3) { width: 105px; } /* Stats */
-.main-surge-table th:nth-child(4) { width: 105px; } /* Storm-Tide */
+.main-surge-table th:nth-child(3) { width: 103px; } /* Stats */
+.main-surge-table th:nth-child(4) { width: 103px; } /* Storm-Tide */
 
 /* 2. Set strict pixel widths for dynamic columns based on table size */
 .cols-8 th:nth-child(5) { width: 55px; }  /* NOAA */
 .cols-8 th:nth-child(6) { width: 55px; }  /* USGS */
-.cols-8 th:nth-child(7) { width: 90px; }  /* Guidance */
+.cols-8 th:nth-child(7) { width: 95px; }  /* Guidance */
 
-.cols-7 th:nth-child(5) { width: 65px; }  /* NOAA */
-.cols-7 th:nth-child(6) { width: 65px; }  /* USGS */
+.cols-7 th:nth-child(5) { width: 55px; }  /* NOAA */
+.cols-7 th:nth-child(6) { width: 55px; }  /* USGS */
 
-.cols-6 th:nth-child(5) { width: 65px; }  /* NOAA */
+.cols-6 th:nth-child(5) { width: 55px; }  /* NOAA */
 
 .main-surge-table th:last-child {
     width: auto; /* Force Area to stretch to the absolute edge of the table */
