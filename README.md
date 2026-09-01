@@ -36,39 +36,39 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
 |---|---|---|---|---|---|---|---|
-| <span id="2026-bertha"></span>[2026-Bertha](https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season) | Jul 19-24 | (TS, 995, 0, 0) | w2: 3.0 surge |  |  | PS 5-8 | FL, AL, LA |
+| <span id="2026-bertha"></span>[2026-Bertha](https://en.wikipedia.org/wiki/Tropical_Storm_Bertha_(2026)) | Jul 19-24 | (TS, 995, 0, 0) | w2: 3.0 surge |  |  | PS 5-8 | FL, AL, LA, MS, TX |
 | &nbsp; | | | | | | | |
 | <span id="2025-oct-et-2"></span>2025-Oct-ET-2 | Oct 29-31 | (ET, , , ) | w1: 2.5 surge |  |  |  |  |
-| <span id="2025-melissa"></span>[2025-Melissa](https://en.wikipedia.org/wiki/Hurricane_Melissa) | Oct 21 - Nov 6 | (Cat5, 892, , ) | w?: TBD |  | [FEV](https://storms.ngs.noaa.gov/storms/melissa/index.html#17.97/18.030803/-77.910556) |  | JAM, CUB |
+| <span id="2025-melissa"></span>[2025-Melissa](https://en.wikipedia.org/wiki/Hurricane_Melissa) | Oct 21 - Nov 6 | (Cat5, 892, 76, ) | w?: TBD |  | [FEV](https://storms.ngs.noaa.gov/storms/melissa/index.html#17.97/18.030803/-77.910556) |  | JAM, CUB, HTI, DOM |
 | <span id="2025-oct-et-1"></span>2025-Oct-ET-1 | Oct 12-14 | (ET, , , ) | w2: 3.4 surge |  |  | P-ETSS (10/10 to 10/12) | NC, VA, MD, DE, NJ, NY |
-| <span id="2025-imelda"></span>[2025-Imelda](https://en.wikipedia.org/wiki/Tropical_Storm_Imelda_(2025)) | Sep 27 - Oct 1 | (TS, 996, 1, TBD) | w1: 2.0 surge |  |  | PS 4-7 | NC |
-| <span id="2025-erin"></span>[2025-Erin](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) | Aug 11-22 | (Cat5, 915, 10, $0.001) | w2: 3.3 surge |  |  | PS 29-42 | NC, VA, MD, DE, NJ, NY |
-| <span id="2025-chantal"></span>[2025-Chantal](https://en.wikipedia.org/wiki/Tropical_Storm_Chantal_(2025)) | Jul 4-7 | (TS, 1002, 0, $TBD) | w2: 3.0 surge |  |  | PETSS (7/4 18Z) | SC, NC |
+| <span id="2025-imelda"></span>[2025-Imelda](https://en.wikipedia.org/wiki/Tropical_Storm_Imelda_(2025)) | Sep 27 - Oct 6 | (Cat1, 966, 3, TBD) | w1: 2.0 surge |  |  | PS 4-7 | CUB, PRI, HTI, BHS, BMU, NC |
+| <span id="2025-erin"></span>[2025-Erin](https://en.wikipedia.org/wiki/Hurricane_Erin_(2025)) | Aug 11-22 | (Cat5, 913, 13, 0.025) | w2: 3.3 surge |  |  | PS 29-42 | CPV, {Leeward Islands}, PRI, DOM, HTI, BHS, BMU, {US East Coast}, {Atlantic Canada} |
+| <span id="2025-chantal"></span>[2025-Chantal](https://en.wikipedia.org/wiki/Tropical_Storm_Chantal_(2025)) | Jul 4-7 | (TS, 1002, 6, 0.5) | w2: 3.0 surge |  |  | PETSS (7/4 18Z) | SC, NC |
 | &nbsp; | | | | | | | |
-| <span id="2024-milton"></span>[2024-Milton (R)](https://en.wikipedia.org/wiki/Hurricane_Milton) | Oct 5-12 | (Cat5, 895, 45, $34.6+) | w4: 10.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL142024_Milton.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Milton) | PS 5-8,10-22 | {S of Tampa FL}, GA |
-| <span id="2024-helene"></span>[2024-Helene (R)](https://en.wikipedia.org/wiki/Tropical_Storm_Helene_(2024)) | Sep 23-29 | (Cat4, 939, 251, $78.7+) | w6: 16.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092024_Helene.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Helene) | PS 1-8 | {NW FL}, NC, SC, GA, FL, TN, VA, IN, KY, WV, IL, OK, AL |
+| <span id="2024-milton"></span>[2024-Milton (R)](https://en.wikipedia.org/wiki/Hurricane_Milton) | Oct 5-12 | (Cat5, 895, 45, 34.3) | w4: 10.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL142024_Milton.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Milton) | PS 5-8,10-22 | {S of Tampa}, FL, GA |
+| <span id="2024-helene"></span>[2024-Helene (R)](https://en.wikipedia.org/wiki/Hurricane_Helene) | Sep 23-29 | (Cat4, 939, 219, 79.6) | w6: 16.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092024_Helene.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Helene) | PS 1-8 | {N.W. FL}, NC, SC, GA, FL, TN, VA, IN, KY, WV, IL, OK, AL |
 | <span id="2024-potential_tc_8"></span>[2024-Potential_TC_8](https://tidesandcurrents.noaa.gov/inundationdb/inundation.html?id=8658120#top10event) | Sep 17 | (PT, , , ) | w1: 2.42 surge |  |  |  | NC |
-| <span id="2024-francine"></span>[2024-Francine](https://en.wikipedia.org/wiki/Hurricane_Francine) | Sep 12 | (Cat2, 972, 0, $1.300) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062024_Francine.pdf) |  | PS 1-16 | LA, MS |
-| <span id="2024-debby"></span>[2024-Debby](https://en.wikipedia.org/wiki/Hurricane_Debby_(2024)) | Aug 5-6 | (Cat1, 979, 10, $1+) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042024_Debby.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Debby) | PS 6-20 | {NW FL}, GA, SC, NC |
-| <span id="2024-beryl"></span>[2024-Beryl (R)](https://en.wikipedia.org/wiki/Hurricane_Beryl) | Jul 8 | (Cat5, 934, 70, $6.86+) | w3: 7.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL022024_Beryl.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Beryl) | PS 29-41 | TX, LA |
-| <span id="2024-alberto"></span>[2024-Alberto](https://en.wikipedia.org/wiki/Tropical_Storm_Alberto_(2024)) | Jun 19-20 | (TS, 993, 5, $0.179) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL012024_Alberto.pdf) |  |  | TX, LA |
+| <span id="2024-francine"></span>[2024-Francine](https://en.wikipedia.org/wiki/Hurricane_Francine) | Sep 12 | (Cat2, 972, 0, 1.5) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062024_Francine.pdf) |  | PS 1-16 | LA, MS |
+| <span id="2024-debby"></span>[2024-Debby](https://en.wikipedia.org/wiki/Hurricane_Debby_(2024)) | Aug 5-6 | (Cat1, 979, 10, 4.5) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042024_Debby.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Debby) | PS 6-20 | {N.W. FL}, GA, SC, NC |
+| <span id="2024-beryl"></span>[2024-Beryl (R)](https://en.wikipedia.org/wiki/Hurricane_Beryl) | Jul 8 | (Cat5, 934, 70, 6.0) | w3: 7.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL022024_Beryl.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2024Beryl) | PS 29-41 | TX, LA, MEX, JAM, GRD, VCT |
+| <span id="2024-alberto"></span>[2024-Alberto](https://en.wikipedia.org/wiki/Tropical_Storm_Alberto_(2024)) | Jun 19-20 | (TS, 993, 5, 0.15) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL012024_Alberto.pdf) |  |  | TX, LA, MEX |
 | <span id="2024-jan-et"></span>2024-Jan-ET | Jan 10-14 | (ET, , , ) | w2: 4.2 surge |  |  | P-ETSS | {Seavy Is ME} |
 | &nbsp; | | | | | | | |
-| <span id="2023-philippe"></span>[2023-Philippe](https://en.wikipedia.org/wiki/Tropical_Storm_Philippe_(2023)) | Oct 6-8 | (TS, 998, 0, $TBD) | w1: 0.0 surge |  |  |  | {Close to PR} |
+| <span id="2023-philippe"></span>[2023-Philippe](https://en.wikipedia.org/wiki/Tropical_Storm_Philippe_(2023)) | Oct 6-8 | (TS, 998, 0, $TBD) | w1: 0.0 surge |  |  |  | PRI |
 | <span id="2023-ophelia"></span>[2023-Ophelia](https://en.wikipedia.org/wiki/Tropical_Storm_Ophelia_(2023)) | Sep 22-24 | (TS, 981, 0, $0.450) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL162023_Ophelia.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2023Ophelia) | P-ETSS | NC, VA, MD, NY, DE |
-| <span id="2023-lee"></span>[2023-Lee](https://en.wikipedia.org/wiki/Hurricane_Lee_(2023)) | Sep 13-14 | (Cat5, 926, 3, $0.050) | w1: 2.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL132023_Lee.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2023Lee) | PS 34-27 | {New England} |
-| <span id="2023-idalia"></span>[2023-Idalia](https://en.wikipedia.org/wiki/Hurricane_Idalia) | Aug 27-31 | (Cat4, 940, 7, $2.500) | w5: 12.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL102023_Idalia.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2023Idalia) | PS 5-20 | {NW FL} |
+| <span id="2023-lee"></span>[2023-Lee](https://en.wikipedia.org/wiki/Hurricane_Lee_(2023)) | Sep 13-14 | (Cat5, 926, 3, $0.050) | w1: 2.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL132023_Lee.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2023Lee) | PS 34-27 | {N.E. US}, CAN |
+| <span id="2023-idalia"></span>[2023-Idalia](https://en.wikipedia.org/wiki/Hurricane_Idalia) | Aug 27-31 | (Cat4, 940, 7, $2.500) | w5: 12.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL102023_Idalia.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2023Idalia) | PS 5-20 | {N.W. FL}, FL, GA, SC, NC |
 | &nbsp; | | | | | | | |
 | <span id="2022-nicole"></span>[2022-Nicole](https://en.wikipedia.org/wiki/Hurricane_Nicole_(2022)) | Nov 7-11 | (Cat1, 980, 11, $1.000) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL172022_Nicole.pdf) |  | P-ETSS | PR, FL |
-| <span id="2022-ian"></span>[2022-Ian (R)](https://en.wikipedia.org/wiki/Hurricane_Ian) | Sep 26-30 | (Cat5, 937, 161, $113.000) | w6: 15.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2022Ian) | PS 12-33 | {SW FL}, SC |
+| <span id="2022-ian"></span>[2022-Ian (R)](https://en.wikipedia.org/wiki/Hurricane_Ian) | Sep 26-30 | (Cat5, 937, 161, $113.000) | w6: 15.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2022Ian) | PS 12-33 | {S.W. FL}, FL, SC, NC |
 | <span id="2022-fiona"></span>[2022-Fiona (R)](https://en.wikipedia.org/wiki/Hurricane_Fiona) | Sep 14-27 | (Cat4, 931, 29, $3.400) | w2: 3.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL072022_Fiona.pdf) |  |  | PR |
 | <span id="2022-may-et"></span>[2022-May-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit) | May 12 | (ET, 1000, , ) | w1: 2.0 surge |  |  | P-ETSS | NC |
 | <span id="2022-jan-et"></span>[2022-Jan-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit) | Jan 16 | (ET, 984, , ) | w1: 1.48 surge |  |  | P-ETSS | NC |
 | &nbsp; | | | | | | | |
 | <span id="2021-nov-et"></span>[2021-Nov-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit#heading=h.gjdgxs) | Nov 6-8 | (ET, 993, 238, ) | w2: 3.26 surge |  |  | P-ETSS | NC |
-| <span id="2021-oct-et"></span>2021-Oct-ET | Oct 28-29 | (ET, , , ) | w?: TBD |  | [FEV](https://stn.wim.usgs.gov/FEV/#2021OctoberExtratropicalCyclone) | P-ETSS | MD, {DE (River Forcing)} |
-| <span id="2021-nicholas"></span>[2021-Nicholas](https://en.wikipedia.org/wiki/Hurricane_Nicholas) | Sep 19-20 | (Cat1, 988, 2, $1.100) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL142021_Nicholas.pdf) |  | PS 2 | {N TX} |
-| <span id="2021-ida"></span>[2021-Ida (R)](https://en.wikipedia.org/wiki/Hurricane_Ida) | Aug 27-30 | (Cat4, 929, 107, $75.300) | w5: 14.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092021_Ida.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2021Ida) | PS 3-18 | {New Orleans - LA} |
+| <span id="2021-oct-et"></span>2021-Oct-ET | Oct 28-29 | (ET, , , ) | w?: TBD |  | [FEV](https://stn.wim.usgs.gov/FEV/#2021OctoberExtratropicalCyclone) | P-ETSS | MD, {DE - River Forcing} |
+| <span id="2021-nicholas"></span>[2021-Nicholas](https://en.wikipedia.org/wiki/Hurricane_Nicholas) | Sep 19-20 | (Cat1, 988, 2, $1.100) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL142021_Nicholas.pdf) |  | PS 2 | {N. TX}, TX, LA |
+| <span id="2021-ida"></span>[2021-Ida (R)](https://en.wikipedia.org/wiki/Hurricane_Ida) | Aug 27-30 | (Cat4, 929, 107, $75.300) | w5: 14.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092021_Ida.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2021Ida) | PS 3-18 | {New Orleans}, LA, MS, AL, {N.E. US} |
 | <span id="2021-henri"></span>[2021-Henri](https://en.wikipedia.org/wiki/Hurricane_Henri) | Aug 20-22 | (Cat1, 986, 2, $0.700) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL082021_Henri.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2021Henri) | PS 18-27 | {New England} |
 | <span id="2021-fred"></span>[2021-Fred](https://en.wikipedia.org/wiki/Tropical_Storm_Fred_(2021)) | Aug 15,16 | (TS, 991, 7, $1.300) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062021_Fred.pdf) |  | PS 24-29 | {NW FL} |
 | <span id="2021-elsa"></span>[2021-Elsa](https://en.wikipedia.org/wiki/Hurricane_Elsa) | Jun 30 - Jul 10 | (Cat1, 991, 13, $1.200) | w2: 3.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL052021_Elsa.pdf) |  | P-ETSS | {East Coast} |
@@ -242,7 +242,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 | <span id="1996-josephine"></span>[1996-Josephine](https://en.wikipedia.org/wiki/Tropical_Storm_Josephine_(1996)) | Oct 4-13 | (TS, 981, 3, $0.130) | w4: 9.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL101996_Josephine.pdf) |  | FL, LA, NC, CAN |
 | <span id="1996-hortense"></span>[1996-Hortense (R)](https://en.wikipedia.org/wiki/Hurricane_Hortense) | Sep 3-16 | (Cat4, 935, 39, $0.158) | w?: TBD | [TCR](https://www.nhc.noaa.gov/data/tcr/AL081996_Hortense.pdf) |  | LS-ANT, PR, DOM, TCA, CAN |
 | <span id="1996-fran"></span>[1996-Fran (R)](https://en.wikipedia.org/wiki/Hurricane_Fran) | Aug 23 - Sep 10 | (Cat3, 946, 27, $5) | w5: 12.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL061996_Fran.pdf) |  | SC, NC, VA, WV, MD, PA |
-| <span id="1996-cesar"></span>[1996-Cesar (R)](https://en.wikipedia.org/wiki/Hurricane_Cesar%E2%80%93Douglas) | Jul 24 - Aug 8 | (Cat4, 945, 113, $0.203) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL031996_Cesar.pdf) |  | {Windward Is.}, TTO, {Leeward ANT}, VEN, COL, MEX, GTM, PAN, SLV |
+| <span id="1996-cesar"></span>[1996-Cesar (R)](https://en.wikipedia.org/wiki/Hurricane_Cesar%E2%80%93Douglas) | Jul 24 - Aug 8 | (Cat4, 945, 113, $0.203) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL031996_Cesar.pdf) |  | {Windward Is}, TTO, {Leeward ANT}, VEN, COL, MEX, GTM, PAN, SLV |
 | <span id="1996-bertha"></span>[1996-Bertha](https://en.wikipedia.org/wiki/Hurricane_Bertha_(1996)) | Jul 5-18 | (Cat3, 960, 12, $0.335) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL021996_Bertha.pdf) |  | {Leeward Is}, PR, NC, {Mid-Atlantic}, {New England}, CAN |
 | &nbsp; | | | | | | |
 | <span id="1995-roxanne"></span>[1995-Roxanne (R)](https://en.wikipedia.org/wiki/Hurricane_Roxanne) | Oct 7-21 | (Cat3, 956, 29, $1.5) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL191995_Roxanne.pdf) |  | MEX |
@@ -253,7 +253,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 | <span id="1995-allison"></span>[1995-Allison](https://en.wikipedia.org/wiki/Hurricane_Allison_(1995)) | Jun 3-11 | (Cat1, 987, 1, $0.0017) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL011995_Allison.pdf) |  | {Yuc-Pen}, {W. CUB}, FL, GA, NC, SC, CAN |
 | &nbsp; | | | | | | |
 | <span id="1994-gordon"></span>[1994-Gordon](https://en.wikipedia.org/wiki/Hurricane_Gordon) | Nov 8-21 | (Cat1, 980, 1152, $0.594) | w2: 4.0 surge | [TCR](https://en.wikipedia.org/wiki/Hurricane_Gordon) |  | DOM, HTI, CRI, JAM, PAN, CUB, FL, NC |
-| <span id="1994-beryl"></span>[1994-Beryl](https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(1994)) | Aug 14-19 | (TS, 999, 5, $0.742) | w2: 5.0 surge | [TCR](https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(1994)) |  | {FL - Panama City} |
+| <span id="1994-beryl"></span>[1994-Beryl](https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(1994)) | Aug 14-19 | (TS, 999, 5, $0.742) | w2: 5.0 surge | [TCR](https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(1994)) |  | {Panama City - FL} |
 | <span id="1994-alberto"></span>[1994-Alberto](https://en.wikipedia.org/wiki/Tropical_Storm_Alberto_(1994)) | Jun 30 - Jul 7 | (TS, 993, 32, $1.03) | w2: 5.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | {FL Panhandle}, AL, GA |
 | &nbsp; | | | | | | |
 | <span id="1993-gert"></span>[1993-Gert](https://en.wikipedia.org/wiki/Hurricane_Gert) | Sep 14-26 | (, , , ) | w?: TBD |  |  |  |
@@ -293,7 +293,7 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 | <span id="1983-alicia"></span>[1983-Alicia (R)](https://en.wikipedia.org/wiki/Hurricane_Alicia) | Aug 15-21 | (, , , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
 | <span id="1980-jeanne"></span>[1980-Jeanne](https://en.wikipedia.org/wiki/Hurricane_Jeanne_(1980)) | Nov 7-16 | (, , , ) | w2: 4.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | TX |
-| <span id="1980-danielle"></span>[1980-Danielle](https://en.wikipedia.org/wiki/Tropical_Storm_Danielle_(1980)) | Sep 4-7 | (, , , ) | w2: 3.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | SW LA, TX |
+| <span id="1980-danielle"></span>[1980-Danielle](https://en.wikipedia.org/wiki/Tropical_Storm_Danielle_(1980)) | Sep 4-7 | (, , , ) | w2: 3.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | {S.W. LA}, TX |
 | <span id="1980-allen"></span>[1980-Allen (R)](http://en.wikipedia.org/wiki/Hurricane_Allen) | Aug | (, 899, , ) | w?: TBD |  |  |  |
 | &nbsp; | | | | | | |
 | <span id="1979-frederic"></span>[1979-Frederic (R)](http://en.wikipedia.org/wiki/Hurricane_Frederic) | Sep | (, , , ) | w?: TBD |  |  |  |
