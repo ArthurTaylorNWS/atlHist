@@ -86,8 +86,8 @@ a:link {
 }
 
 /* 1. Set strict pixel widths for standard base columns */
-.main-surge-table th:nth-child(1) { width: 140px; } /* YYYY-Storm */
-.main-surge-table th:nth-child(2) { width: 100px; } /* Date */
+.main-surge-table th:nth-child(1) { width: 135px; } /* YYYY-Storm */
+.main-surge-table th:nth-child(2) { width: 105px; } /* Date */
 .main-surge-table th:nth-child(4) { width: 105px; } /* Storm-Tide */
 
 /* 2. Set strict pixel widths for dynamic columns based on table size */
