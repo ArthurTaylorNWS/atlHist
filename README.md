@@ -168,8 +168,7 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | <span id="2008-ike"></span>[2008-Ike (R)](https://en.wikipedia.org/wiki/Hurricane_Ike) | Sep 1-14 | (Cat4, 935, 214, $38) | w7: 20.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092008_Ike.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2008Ike) | PS 25-50; Rexfile | TX, LA, CUB, CYM, DOM+HTI, BHS+TCA |
 | <span id="2008-hanna"></span>[2008-Hanna](https://en.wikipedia.org/wiki/Hurricane_Hanna_(2008)) | Aug 28 - Sep 12 | (, , , ) | w?: TBD |  |  |  |  |
 | <span id="2008-gustav"></span>[2008-Gustav (R)](https://en.wikipedia.org/wiki/Hurricane_Gustav) | Aug 25 - Sep 4 | (Cat4, 941, 153, $8.31) | w5: 13.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL072008_Gustav.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2008Gustav) | PS 25-33; Rexfile | LA, LS-ANT, GR-ANT |
-| <span id="2008-fay"></span>[2008-Fay](https://en.wikipedia.org/wiki/Tropical_Storm_Fay_(2008)) | Aug 15-27 | (TS, 986, 36, $0.560) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062008_Fay.pdf) |  | PS 7-20 | FL, GA, AL, MS, LA, PR, 
-DOM+HTI, JAM, CYM, CUB |
+| <span id="2008-fay"></span>[2008-Fay](https://en.wikipedia.org/wiki/Tropical_Storm_Fay_(2008)) | Aug 15-27 | (TS, 986, 36, $0.560) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062008_Fay.pdf) |  | PS 7-20 | FL, GA, AL, MS, LA, PR, DOM+HTI, JAM, CYM, CUB |
 | <span id="2008-dolly"></span>[2008-Dolly](https://en.wikipedia.org/wiki/Hurricane_Dolly_(2008)) | Jul 20-26 | (Cat2, 963, 21, $1.6) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042008_Dolly.pdf) |  | PS 5-14 | {S. TX} TX, CYM, HND, BLZ, GTM, MEX |
 | &nbsp; | | | | | | | |
 | <span id="2007-noel"></span>[2007-Noel (R)](https://en.wikipedia.org/wiki/Hurricane_Noel) | Nov 2-7 | (Cat1, 980, 220, $0.580) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL162007_Noel.pdf) |  |  | {Leeward Is}, PR, {DOM+HTI}, JAM, CUB, TCA, BHS, FL, {East US}, CAN |
@@ -424,7 +423,7 @@ Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.
 | <span id="1926-great_miami"></span>[1926-Great_Miami](http://en.wikipedia.org/wiki/1926_Miami_hurricane) | Sep 11-22 | (Cat4, 930, 539, $0.10) | w2: 4.2 surge | [TCR](https://www.intechopen.com/chapters/15338) | {FL Panhandle} |
 | <span id="1926-great_nassau"></span>[1926-Great_Nassau](https://en.wikipedia.org/wiki/1926_Nassau_hurricane) | Jul 22 - Aug 2 | (Cat4, 955, 598, $0.0191) | w?: TBD |  |  |
 | &nbsp; | | | | | |
-| <span id="1924-"cuba""></span>1924-"Cuba" | Oct | (, 910, , ) | w?: TBD |  |  |
+| <span id="1924-cuba"></span>1924-Cuba | Oct | (, 910, , ) | w?: TBD |  |  |
 | &nbsp; | | | | | |
 | <span id="1921-tampa_bay_hurr"></span>[1921-Tampa_Bay_Hurr](https://en.wikipedia.org/wiki/1921_Tampa_Bay_hurricane) | Oct 20-30 | (, , , ) | w?: TBD |  |  |
 | &nbsp; | | | | | |
