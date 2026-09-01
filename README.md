@@ -34,7 +34,7 @@ In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See
 
 <div class="main-surge-table" markdown="1">
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
+| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | Guidance | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|---|---|
 | <span id="2026-bertha"></span>[2026-Bertha](https://en.wikipedia.org/wiki/2026_Atlantic_hurricane_season) | Jul 19-24 | (TS, 995, 0, 0) | w2: 3.0 surge |  |  | PS 5-8 | FL, AL, LA |
 | &nbsp; | | | | | | | |
@@ -115,7 +115,7 @@ Starting in 2012, NHC Tropical Cyclone Reports shifted to reporting peak water l
 
 <div class="main-surge-table" markdown="1">
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
+| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | Guidance | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|---|---|
 | <span id="2016-otto"></span>[2016-Otto (R)](https://en.wikipedia.org/wiki/Hurricane_Otto) | Nov 20-26 | (Cat3, 975, 23, $0.192) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL162016_Otto.pdf) |  |  | PAN, CRI, NIC |
 | <span id="2016-matthew"></span>[2016-Matthew (R)](https://en.wikipedia.org/wiki/Hurricane_Matthew) | Sep 28 - Oct 9 | (Cat5, 934, 731, $16.500) | w3: 7.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL142016_Matthew.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2016Matthew) | PS 26-44 | SE US |
@@ -145,7 +145,7 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 
 <div class="main-surge-table" markdown="1">
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Guidance | Area |
+| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | Guidance | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|---|---|
 | <span id="2011-lee"></span>[2011-Lee](https://en.wikipedia.org/wiki/Tropical_Storm_Lee_(2011)) | Sep 2-7 | (TS, 986, 18, $2.800) | w2: 4.67 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL132011_Lee.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#September2011flood-TropicalStormLee) | ETSS | LA, MS |
 | <span id="2011-irene"></span>[2011-Irene (R)](https://en.wikipedia.org/wiki/Hurricane_Irene) | Aug 21-30 | (Cat3, 942, 58, $14.200) | w4: 11.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092011_Irene.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2011Irene) | PS 20-34 | {Mid-Atl}, {NE US} |
@@ -230,7 +230,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 
 <div class="main-surge-table" markdown="1">
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Area |
+| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|---|
 | <span id="1998-mitch"></span>[1998-Mitch (R)](https://en.wikipedia.org/wiki/Hurricane_Mitch) | Oct 22 - Nov 9 | (Cat5, 905, 19325, $6.08) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL131998_Mitch.pdf) |  | HND, NIC, GTM, SLV, BLZ, MEX, CRI, JAM, PAN, FL |
 | <span id="1998-georges"></span>[1998-Georges (R)](https://en.wikipedia.org/wiki/Hurricane_Georges) | Sep 15 - Oct 1 | (Cat4, 937, 604, $9.3) | w5: 12.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL071998_Georges.pdf) |  | {Leeward Is}, PR, {DOM+HTI}, CUB, FL, LA, MS, AL, GA |
@@ -274,7 +274,7 @@ The practice of retiring significant hurricane names began in 1954. Early surge 
 
 <div class="main-surge-table" markdown="1">
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Area |
+| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | USGS | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|---|
 | <span id="1990-klaus"></span>[1990-Klaus (R)](https://en.wikipedia.org/wiki/Hurricane_Klaus_(1990)) | Oct 3-9 | (, , , ) | w?: TBD |  |  |  |
 | <span id="1990-diana"></span>[1990-Diana (R)](https://en.wikipedia.org/wiki/Hurricane_Diana) | Aug 4-9 | (, , , ) | w?: TBD |  |  |  |
@@ -372,7 +372,7 @@ Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.
 
 <div class="main-surge-table" markdown="1">
 
-| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | Area |
+| <div style='width:130px'>YYYY-Storm</div> | <div style='width:100px'>Date</div> | <div style='width:140px'>Cat, Pres, Dead, $bn</div> | <div style='width:90px'>Storm-Tide</div> | NOAA | <div style='width:200px'>Area</div> |
 |---|---|---|---|---|---|
 | <span id="1953-florence"></span>1953-Florence |  | (, , , ) | w2: 5.0 surge | [TCR](https://www.intechopen.com/chapters/15338) | FL |
 | &nbsp; | | | | | |
