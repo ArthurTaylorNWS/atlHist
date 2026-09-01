@@ -165,13 +165,13 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | &nbsp; | | | | | | | |
 | <span id="2008-paloma"></span>[2008-Paloma (R)](https://en.wikipedia.org/wiki/Hurricane_Paloma) | Nov 5-10 | (Cat4, 944, 1, $0.455) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL172008_Paloma.pdf) |  |  | {Cent. Am}, JAM, CYM, CUB, BHS, FL |
 | <span id="2008-sep-et"></span>[2008-Sep-ET](https://docs.google.com/document/d/1Ubzp3m0crb_X0zanBt9xhVKMmP9s7ayB/edit#heading=h.gjdgxs) | Sep 26 | (ET, 1000, , ) | w1: 2.7 surge |  |  | ETSS | NC |
-| <span id="2008-ike"></span>[2008-Ike (R)](https://en.wikipedia.org/wiki/Hurricane_Ike) | Sep 1-14 | (Cat4, 935, 214, $38) | w7: 20.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092008_Ike.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2008Ike) | PS 25-50; Rexfile | TX, LA, CUB, CYM, DOM+HTI, BHS+TCA |
+| <span id="2008-ike"></span>[2008-Ike (R)](https://en.wikipedia.org/wiki/Hurricane_Ike) | Sep 1-14 | (Cat4, 935, 214, $38) | w7: 20.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092008_Ike.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2008Ike) | PS 25-50; Rexfile | TX, LA, CUB, CYM, DOM, HTI, BHS+TCA |
 | <span id="2008-hanna"></span>[2008-Hanna](https://en.wikipedia.org/wiki/Hurricane_Hanna_(2008)) | Aug 28 - Sep 12 | (, , , ) | w?: TBD |  |  |  |  |
 | <span id="2008-gustav"></span>[2008-Gustav (R)](https://en.wikipedia.org/wiki/Hurricane_Gustav) | Aug 25 - Sep 4 | (Cat4, 941, 153, $8.31) | w5: 13.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL072008_Gustav.pdf) | [FEV](https://stn.wim.usgs.gov/FEV/#2008Gustav) | PS 25-33; Rexfile | LA, LS-ANT, GR-ANT |
-| <span id="2008-fay"></span>[2008-Fay](https://en.wikipedia.org/wiki/Tropical_Storm_Fay_(2008)) | Aug 15-27 | (TS, 986, 36, $0.560) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062008_Fay.pdf) |  | PS 7-20 | FL, GA, AL, MS, LA, PR, DOM+HTI, JAM, CYM, CUB |
+| <span id="2008-fay"></span>[2008-Fay](https://en.wikipedia.org/wiki/Tropical_Storm_Fay_(2008)) | Aug 15-27 | (TS, 986, 36, $0.560) | w2: 5.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062008_Fay.pdf) |  | PS 7-20 | FL, GA, AL, MS, LA, PR, DOM, HTI, JAM, CYM, CUB |
 | <span id="2008-dolly"></span>[2008-Dolly](https://en.wikipedia.org/wiki/Hurricane_Dolly_(2008)) | Jul 20-26 | (Cat2, 963, 21, $1.6) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042008_Dolly.pdf) |  | PS 5-14 | {S. TX} TX, CYM, HND, BLZ, GTM, MEX |
 | &nbsp; | | | | | | | |
-| <span id="2007-noel"></span>[2007-Noel (R)](https://en.wikipedia.org/wiki/Hurricane_Noel) | Nov 2-7 | (Cat1, 980, 220, $0.580) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL162007_Noel.pdf) |  |  | {Leeward Is}, PR, {DOM+HTI}, JAM, CUB, TCA, BHS, FL, {East US}, CAN |
+| <span id="2007-noel"></span>[2007-Noel (R)](https://en.wikipedia.org/wiki/Hurricane_Noel) | Nov 2-7 | (Cat1, 980, 220, $0.580) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL162007_Noel.pdf) |  |  | {Leeward Is}, PR, DOM, HTI, JAM, CUB, TCA, BHS, FL, {East US}, CAN |
 | <span id="2007-humberto"></span>[2007-Humberto](https://en.wikipedia.org/wiki/Hurricane_Humberto_(2007)) | Sep 12-14 | (Cat1, 985, 1, $0.50) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL092007_Humberto.pdf) |  | PS 5-6 | TX, LA, MS, NC, SC |
 | <span id="2007-felix"></span>[2007-Felix (R)](https://en.wikipedia.org/wiki/Hurricane_Felix) | Sep 5-7 | (Cat5, 929, 133, $0.720) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL062007_Felix.pdf) |  |  | TTO, {Windward Is}, VEN, {Leeward ANT}, ABW, COL, CRI, NIC, HND, SLV, BLZ, GTM, MEX, {US Gulf} |
 | <span id="2007-dean"></span>[2007-Dean (R)](https://en.wikipedia.org/wiki/Hurricane_Dean) | Aug 13-27 | (Cat5, 905, 45, $1.66) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL042007_Dean.pdf) |  |  | LS-ANT, GR-ANT, NIC, HND, BLZ, GTM, MEX |
@@ -210,7 +210,7 @@ Captures the introduction of deterministic rexfiles in 1999 through the initial 
 | <span id="2002-gustav"></span>[2002-Gustav](https://en.wikipedia.org/wiki/Hurricane_Gustav_(2002)) | Sep 8-15 | (Cat2, 960, 4, $0.00) | w3: 6.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL082002_Gustav.pdf) |  | ETSS | {US East}, CAN |
 | &nbsp; | | | | | | | |
 | <span id="2001-michelle"></span>[2001-Michelle (R)](https://en.wikipedia.org/wiki/Hurricane_Michelle) | Oct 29 - Nov 6 | (Cat4, 933, 48, $2.42) | w2: 3.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL152001_Michelle.pdf) |  | ETSS | JAM, CRI, NIC, HND, CYM, CUB, BHS, TCA, BMU, FL |
-| <span id="2001-iris"></span>[2001-Iris (R)](https://en.wikipedia.org/wiki/Hurricane_Iris) | Oct 4-9 | (Cat4, 948, 36, $0.25) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112001_Iris.pdf) |  |  | {Windward Is}, {DOM+HTI}, JAM, HND, BLZ, GTM, {E. MEX} |
+| <span id="2001-iris"></span>[2001-Iris (R)](https://en.wikipedia.org/wiki/Hurricane_Iris) | Oct 4-9 | (Cat4, 948, 36, $0.25) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL112001_Iris.pdf) |  |  | {Windward Is}, DOM, HTI, JAM, HND, BLZ, GTM, {E. MEX} |
 | <span id="2001-allison"></span>[2001-Allison (R)](https://en.wikipedia.org/wiki/Tropical_Storm_Allison) | Jun 5-20 | (TS, 1000, 41, $9) | w2: 3.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL012001_Allison.pdf) |  | ETSS | TX, LA, MS, FL, VA, PA |
 | &nbsp; | | | | | | | |
 | <span id="2000-keith"></span>[2000-Keith (R)](https://en.wikipedia.org/wiki/Hurricane_Keith) | Sep 28 - Oct 6 | (Cat4, 939, 68, $0.319) | w1: 0.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL152000_Keith.pdf) |  |  | {Cent. Am.}, {Yuc-Pen}, MEX, BLZ |
@@ -232,7 +232,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 | YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide | NOAA | USGS | Area |
 |---|---|---|---|---|---|---|
 | <span id="1998-mitch"></span>[1998-Mitch (R)](https://en.wikipedia.org/wiki/Hurricane_Mitch) | Oct 22 - Nov 9 | (Cat5, 905, 19325, $6.08) | w2: 4.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL131998_Mitch.pdf) |  | HND, NIC, GTM, SLV, BLZ, MEX, CRI, JAM, PAN, FL |
-| <span id="1998-georges"></span>[1998-Georges (R)](https://en.wikipedia.org/wiki/Hurricane_Georges) | Sep 15 - Oct 1 | (Cat4, 937, 604, $9.3) | w5: 12.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL071998_Georges.pdf) |  | {Leeward Is}, PR, {DOM+HTI}, CUB, FL, LA, MS, AL, GA |
+| <span id="1998-georges"></span>[1998-Georges (R)](https://en.wikipedia.org/wiki/Hurricane_Georges) | Sep 15 - Oct 1 | (Cat4, 937, 604, $9.3) | w5: 12.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL071998_Georges.pdf) |  | {Leeward Is}, PR, DOM, HTI, CUB, FL, LA, MS, AL, GA |
 | <span id="1998-frances"></span>[1998-Frances](https://en.wikipedia.org/wiki/Tropical_Storm_Frances_(1998)) | Sep 8-13 | (TS, 990, 1, $0.5) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL061998_Frances.pdf) |  | TX, LA |
 | <span id="1998-earl"></span>[1998-Earl](https://en.wikipedia.org/wiki/Hurricane_Earl_(1998)) | Aug 31 - Sep 8 | (Cat2, 985, 3, $0.079) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL051998_Earl.pdf) |  | FL, GA |
 | <span id="1998-bonnie"></span>[1998-Bonnie](https://en.wikipedia.org/wiki/Hurricane_Bonnie_(1998)) | Aug 19-30 | (Cat3, 954, 5, $1) | w4: 9.1 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL021998_Bonnie.pdf) |  | NC |
@@ -252,7 +252,7 @@ Tropical Cyclone Reports (TCRs) from this era are generally available online. Mo
 | <span id="1995-erin"></span>[1995-Erin](https://en.wikipedia.org/wiki/Hurricane_Erin_(1995)) | Jul 31 - Aug 6 | (Cat2, 973, 16, $0.700) | w3: 7.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL051995_Erin.pdf) |  | BHS, JAM, {US East coast}, LA, AK, MS |
 | <span id="1995-allison"></span>[1995-Allison](https://en.wikipedia.org/wiki/Hurricane_Allison_(1995)) | Jun 3-11 | (Cat1, 987, 1, $0.0017) | w3: 8.0 surge | [TCR](https://www.nhc.noaa.gov/data/tcr/AL011995_Allison.pdf) |  | {Yuc-Pen}, {W. CUB}, FL, GA, NC, SC, CAN |
 | &nbsp; | | | | | | |
-| <span id="1994-gordon"></span>[1994-Gordon](https://en.wikipedia.org/wiki/Hurricane_Gordon) | Nov 8-21 | (Cat1, 980, 1152, $0.594) | w2: 4.0 surge | [TCR](https://en.wikipedia.org/wiki/Hurricane_Gordon) |  | DOM+HTI, CRI, JAM, PAN, CUB, FL, NC |
+| <span id="1994-gordon"></span>[1994-Gordon](https://en.wikipedia.org/wiki/Hurricane_Gordon) | Nov 8-21 | (Cat1, 980, 1152, $0.594) | w2: 4.0 surge | [TCR](https://en.wikipedia.org/wiki/Hurricane_Gordon) |  | DOM, HTI, CRI, JAM, PAN, CUB, FL, NC |
 | <span id="1994-beryl"></span>[1994-Beryl](https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(1994)) | Aug 14-19 | (TS, 999, 5, $0.742) | w2: 5.0 surge | [TCR](https://en.wikipedia.org/wiki/Tropical_Storm_Beryl_(1994)) |  | {FL - Panama City} |
 | <span id="1994-alberto"></span>[1994-Alberto](https://en.wikipedia.org/wiki/Tropical_Storm_Alberto_(1994)) | Jun 30 - Jul 7 | (TS, 993, 32, $1.03) | w2: 5.0 surge | [TCR](https://www.intechopen.com/chapters/15338) |  | {FL Panhandle}, AL, GA |
 | &nbsp; | | | | | | |
@@ -384,7 +384,7 @@ Historic surge benchmarks, spanning back to the 1900 Galveston hurricane.
 | <span id="1950-dog"></span>[1950-Dog](http://en.wikipedia.org/wiki/Hurricane_Dog_(1950)) | Sep | (, , , ) | w?: TBD |  |  |
 | <span id="1950-baker"></span>1950-Baker |  | (, , , ) | w2: 5.5 surge | [TCR](https://www.intechopen.com/chapters/15338) | {FL Panhandle} |
 | &nbsp; | | | | | |
-| <span id="1949-delray_beach"></span>[1949-Delray_Beach](https://en.wikipedia.org/wiki/1949_Florida_hurricane) | Aug 23-31 | (Cat4, 954, 2, $0.05) | w?: TBD |  | {FL oke}, {Leeward Is}, PR, {DOM+HTI}, TCA, CUB, BHS, {East Coast}, CAN |
+| <span id="1949-delray_beach"></span>[1949-Delray_Beach](https://en.wikipedia.org/wiki/1949_Florida_hurricane) | Aug 23-31 | (Cat4, 954, 2, $0.05) | w?: TBD |  | {FL oke}, {Leeward Is}, PR, DOM, HTI, TCA, CUB, BHS, {East Coast}, CAN |
 | &nbsp; | | | | | |
 | <span id="1947-fort_lauderdale_hurr"></span>[1947-Fort_Lauderdale_Hurr](http://en.wikipedia.org/wiki/1947_Fort_Lauderdale_hurricane) | Sep 4-21 | (Cat4, 938, 51, $0.08) | w?: TBD |  | BHS, FL, LA, MS |
 | &nbsp; | | | | | |
