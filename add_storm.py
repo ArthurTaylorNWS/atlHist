@@ -94,9 +94,9 @@ FIELD_DEFS = [
     ("maxStmTide", "Peak Storm-Tide/Surge (ft, max value)", "float", True),
     ("TCR or Ref.", "NOAA TCR URL", "str", True),
     ("FEV", "USGS FEV URL", "str", True),
+    ("FirstWarn", "SS Warning (e.g., WatchA4)", "str", True),
+    ("FirstWarn_URL", "SS Warning URL", "str", True),
     ("Guidance", "Guidance (e.g., P-Surge)", "str", True),
-    ("SS Warning", "SS Warning (e.g., WatchA4)", "str", True),
-    ("SS Warning URL", "SS Warning URL", "str", True),
     ("Area", "Impact Area", "str", True)
 ]
 
@@ -129,14 +129,14 @@ def main():
 
         if entry_type == 'Q':
             break
-
+        
         if entry_type == 'Y':
             y_val = prompt_field("Year (YYYY) for spacer", num_type="int", allow_blank=False)
             new_row = {
                 "YYYY": y_val, "Storm": "", "Retire?": "", "Wikipedia": "", 
                 "Date": "", "Cat": "", "Pres": "", "Dead": "", 
                 "$bn": "", "minStmTide": "", "maxStmTide": "0", "TCR or Ref.": "", 
-                "FEV": "", "Guidance": "", "SS Warning": "", "SS Warning URL": "", "Area": ""
+                "FEV": "", "Guidance": "", "FirstWarn": "", "FirstWarn_URL": "", "Area": ""
             }
             rows.append(new_row)
             

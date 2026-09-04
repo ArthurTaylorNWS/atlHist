@@ -94,8 +94,8 @@ a:link {
 /* 2. Set strict pixel widths for dynamic columns based on table size */
 .cols-9 th:nth-child(5) { width: 55px; }  /* NOAA */
 .cols-9 th:nth-child(6) { width: 55px; }  /* USGS */
-.cols-9 th:nth-child(7) { width: 95px; }  /* Guidance */
-.cols-9 th:nth-child(8) { width: 85px; }  /* SS Warn */
+.cols-9 th:nth-child(7) { width: 85px; }  /* SS Warn */
+.cols-9 th:nth-child(8) { width: 95px; }  /* Guidance */
 
 .cols-8 th:nth-child(5) { width: 55px; }  /* NOAA */
 .cols-8 th:nth-child(6) { width: 55px; }  /* USGS */
