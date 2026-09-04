@@ -158,7 +158,7 @@ def main():
         (
             2017, 2026, "2017–2026: The Watch/Warning Era", 
             "In 2017, the NHC officially began issuing Storm Surge Watches and Warnings. [See History](/docs/history/).", 
-            ["NOAA", "USGS", "Guidance", "Area"]
+            ["NOAA", "USGS", "Guidance", "SS Warn", "Area"]
         ),
         (
             2012, 2016, "2012–2016: The AGL Transition", 
@@ -199,7 +199,7 @@ def main():
         
         header_row = "| YYYY-Storm | Date | Cat, Pres, Dead, $bn | Storm-Tide |"
         divider_row = "|---|---|---|---|"
-        for col in ["NOAA", "USGS", "Guidance", "Area"]:
+        for col in ["NOAA", "USGS", "Guidance", "SS Warn", "Area"]:
             if col in cols:
                 header_row += f" {col} |"
                 divider_row += "---|"
@@ -227,12 +227,14 @@ def main():
             c_noaa = format_link("TCR", row.get("TCR or Ref."))
             c_usgs = format_link("FEV", row.get("FEV"))
             c_guide = str(row["Guidance"]) if pd.notna(row.get("Guidance")) else ""
+            c_sswarn = str(row["SS Warn"]) if pd.notna(row.get("SS Warn")) else ""
             c_area = str(row["Area"]) if pd.notna(row.get("Area")) else ""
 
             row_str = f"| {c_name} | {c_date} | {c_stats} | {c_surge} |"
             if "NOAA" in cols: row_str += f" {c_noaa} |"
             if "USGS" in cols: row_str += f" {c_usgs} |"
             if "Guidance" in cols: row_str += f" {c_guide} |"
+            if "SS Warn" in cols: row_str += f" {c_sswarn} |"
             if "Area" in cols: row_str += f" {c_area} |"
             print(row_str)
             
